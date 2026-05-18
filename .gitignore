@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+
+# Build output
+dist/
+
+# Archivos de entorno
+.env
+.env.*
+
+# IDE
+.vscode/
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+
+# =============================
+# DISEÑO / CÓDIGO FUENTE (temporal)
+# Quitar estas líneas cuando quieras subir el diseño
+# =============================
+src/
+index.html
