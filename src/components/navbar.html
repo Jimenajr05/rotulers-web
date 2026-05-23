@@ -1,0 +1,70 @@
+<!-- src/components/navbar.html -->
+<header id="navbar" class="fixed w-full z-50 transition-all duration-500 py-6">
+  <div class="max-w-[1200px] mx-auto px-6 flex justify-between items-center">
+    <!-- Logo -->
+    <a href="#" class="flex items-center hover:opacity-90 transition-opacity" aria-label="ROTÚLERS Home">
+      <img src="/logo.png" alt="ROTÚLERS" width="815" height="273" class="h-10 md:h-12 w-auto object-contain" />
+    </a>
+    
+    <!-- Mobile Menu Button (Hamburger) -->
+    <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none relative w-8 h-8 flex items-center justify-center" aria-label="Abrir menú">
+      <div class="hamburger-icon space-y-2">
+        <span class="block w-7 h-0.5 bg-white transition-transform duration-300 rounded" id="line1"></span>
+        <span class="block w-7 h-0.5 bg-white transition-opacity duration-300 rounded" id="line2"></span>
+        <span class="block w-7 h-0.5 bg-white transition-transform duration-300 rounded" id="line3"></span>
+      </div>
+    </button>
+
+    <!-- Links (Desktop) -->
+    <nav class="hidden md:flex space-x-8 items-center text-white font-medium text-sm tracking-wide">
+      <a href="#inicio" class="relative py-2 group">
+        Inicio
+        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD100] transition-all duration-300 group-hover:w-full"></span>
+      </a>
+      <a href="#servicios" class="relative py-2 group">
+        Servicios
+        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD100] transition-all duration-300 group-hover:w-full"></span>
+      </a>
+      <a href="#galeria" class="relative py-2 group">
+        Galería
+        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD100] transition-all duration-300 group-hover:w-full"></span>
+      </a>
+      <a href="#clientes" class="relative py-2 group">
+        Clientes
+        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD100] transition-all duration-300 group-hover:w-full"></span>
+      </a>
+      <a href="#porque" class="relative py-2 group">
+        ¿Por Qué Elegirnos?
+        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD100] transition-all duration-300 group-hover:w-full"></span>
+      </a>
+      <a href="#mapa" class="relative py-2 group">
+        Ubicación
+        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD100] transition-all duration-300 group-hover:w-full"></span>
+      </a>
+      <a href="#contacto" class="relative py-2 group">
+        Contacto
+        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD100] transition-all duration-300 group-hover:w-full"></span>
+      </a>
+      
+      <!-- CTA Button -->
+      <a href="#contacto" class="btn btn-ripple-container bg-[#1E6FFF] text-white px-7 py-3 font-bold shadow-[0_4px_15px_rgba(30,111,255,0.3)] hover:bg-[#FFD100] hover:text-[#0A1628] hover:shadow-[0_8px_25px_rgba(255,209,0,0.4)] transition-all duration-300">
+        Cotizar ahora
+      </a>
+    </nav>
+  </div>
+  
+  <!-- Mobile Menu (Hidden by default, glass-nav) -->
+  <div id="mobile-menu" class="hidden md:hidden glass-nav w-full absolute top-full left-0 py-8 px-6 shadow-2xl flex flex-col space-y-5 transition-all duration-300">
+    <a href="#inicio" class="text-white text-lg font-semibold hover:text-[#FFD100] transition-colors border-b border-white/5 pb-2">Inicio</a>
+    <a href="#servicios" class="text-white text-lg font-semibold hover:text-[#FFD100] transition-colors border-b border-white/5 pb-2">Servicios</a>
+    <a href="#galeria" class="text-white text-lg font-semibold hover:text-[#FFD100] transition-colors border-b border-white/5 pb-2">Galería</a>
+    <a href="#clientes" class="text-white text-lg font-semibold hover:text-[#FFD100] transition-colors border-b border-white/5 pb-2">Clientes</a>
+    <a href="#porque" class="text-white text-lg font-semibold hover:text-[#FFD100] transition-colors border-b border-white/5 pb-2">¿Por Qué Elegirnos?</a>
+    <a href="#mapa" class="text-white text-lg font-semibold hover:text-[#FFD100] transition-colors border-b border-white/5 pb-2">Ubicación</a>
+    <a href="#contacto" class="text-white text-lg font-semibold hover:text-[#FFD100] transition-colors border-b border-white/5 pb-2">Contacto</a>
+    
+    <a href="#contacto" class="btn btn-ripple-container bg-[#1E6FFF] text-white py-4 font-bold text-center mt-4 hover:bg-[#FFD100] hover:text-[#0A1628] shadow-lg transition-colors">
+      Cotizar ahora
+    </a>
+  </div>
+</header>
