@@ -7,9 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'rotulers-blue': '#1B3A8A',
-        'rotulers-gold': '#E9A800',
-        'rotulers-gray': '#F5F5F5'
+        'rotulers-base': '#0A1628',
+        'rotulers-primary': '#1E6FFF',
+        'rotulers-accent': '#FFD100',
+        'rotulers-bg': '#F4F6FA',
+        'rotulers-white': '#FFFFFF',
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
