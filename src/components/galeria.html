@@ -1,54 +1,86 @@
-<!-- src/components/galeria.html -->
 <section id="galeria" class="py-24 bg-white relative">
   <div class="max-w-[1200px] mx-auto px-6">
     <div class="text-center mb-16">
       <p class="text-[#1E6FFF] font-bold text-sm tracking-wider uppercase mb-3">Portafolio</p>
       <h2 class="text-4xl md:text-5xl font-extrabold text-[#0A1628]">Nuestro Trabajo</h2>
       <p class="text-gray-500 mt-4 max-w-2xl mx-auto text-lg">
-        Una muestra visual de la pasión, precisión y durabilidad que impregnamos en cada uno de nuestros proyectos de publicidad exterior y rotulación.
+        Una muestra visual de la pasión, precisión y durabilidad que impregnamos en cada uno de nuestros proyectos de
+        publicidad exterior y rotulación.
       </p>
     </div>
 
-    <!-- Category Filters (Scrollable on Mobile) -->
     <div class="flex flex-wrap md:justify-center gap-3 mb-12 overflow-x-auto pb-4 scrollbar-hide select-none">
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#1E6FFF] text-white hover:bg-[#1E6FFF] transition-all" data-category="all">Todos</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="lonas">Lonas (Banner)</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="etiquetas">Etiquetas</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="adhesivos">Adhesivos</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="microperforados">Microperforados</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="sandblasting">Sandblasting</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="corte-electronico">Corte Electrónico</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="letras-caja">Letras de Caja</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="letras-planas-laser">Letras Planas Láser</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="placas-acrilicas">Placas Acrílicas</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="placas-pvc">Placas PVC</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="roller-up">Roller Up</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="rotulacion-vehicular">Rotulación Vehicular</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="rotulos-marco-lona">Rótulos Marco y Lona</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="rotulos-metalicos">Rótulos Metálicos</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="rotulos-luminosos">Rótulos Luminosos</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="instalacion">Instalación</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="reparacion">Reparación</button>
-      <button class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all" data-category="mantenimiento">Mantenimiento</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#1E6FFF] text-white hover:bg-[#1E6FFF] transition-all"
+        data-category="all">Todos</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="lonas">Lonas (Banner)</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="etiquetas">Etiquetas</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="adhesivos">Adhesivos</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="microperforados">Microperforados</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="sandblasting">Sandblasting</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="corte-electronico">Corte Electrónico</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="letras-caja">Letras de Caja</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="letras-planas-laser">Letras Planas Láser</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="placas-acrilicas">Placas Acrílicas</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="placas-pvc">Placas PVC</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="roller-up">Roller Up</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="rotulacion-vehicular">Rotulación Vehicular</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="rotulos-marco-lona">Rótulos Marco y Lona</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="rotulos-metalicos">Rótulos Metálicos</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="rotulos-luminosos">Rótulos Luminosos</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="instalacion">Instalación</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="reparacion">Reparación</button>
+      <button
+        class="gallery-filter-btn px-6 py-2.5 rounded-full font-bold text-sm bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF] transition-all"
+        data-category="mantenimiento">Mantenimiento</button>
     </div>
 
-    <!-- Gallery Grid (Desktop 3, Tablet 2, Mobile 1) -->
     <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-      <!-- Dynamic cards loaded via gallery.js -->
     </div>
 
-    <!-- Pagination Controls -->
     <div id="gallery-pagination" class="flex justify-center items-center gap-2 mt-12 select-none">
-      <!-- Dynamic page buttons loaded via gallery.js -->
     </div>
 
-    <!-- View More on Facebook CTA -->
     <div class="flex justify-center mt-16">
-      <a href="https://www.facebook.com/Rotulers" target="_blank" rel="noopener noreferrer" 
+      <a href="https://www.facebook.com/Rotulers" target="_blank" rel="noopener noreferrer"
         class="btn bg-[#1877F2] text-white px-8 py-4 font-extrabold text-lg hover:bg-[#145dbf] transition-all duration-300 shadow-[0_6px_20px_rgba(24,119,242,0.3)] hover:shadow-[0_10px_25px_rgba(20,93,191,0.4)] flex items-center justify-center gap-3">
-        <!-- Facebook SVG Icon -->
         <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
-          <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
+          <path
+            d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z" />
         </svg>
         Ver más en Facebook
       </a>

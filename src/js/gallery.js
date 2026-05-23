@@ -1,8 +1,3 @@
-/**
- * Dynamic project generation supporting 18 services with 10 placeholders each,
- * paginated dynamically at 9 items per page.
- */
-
 const servicesList = [
   { id: "lonas", name: "Lonas (Banner)" },
   { id: "etiquetas", name: "Etiquetas" },
@@ -24,18 +19,15 @@ const servicesList = [
   { id: "mantenimiento", name: "Mantenimiento" }
 ];
 
-// Read actual files placed in the public directory dynamically using Vite
 const globbedFiles = import.meta.glob('/public/**/*.{jpg,jpeg,png,webp,avif,gif}');
 const filePaths = Object.keys(globbedFiles);
 
 const projects = [];
 servicesList.forEach(service => {
-  // Find files that match this service's folder
   const serviceFiles = filePaths.filter(path => path.includes(`/${service.id}/`));
 
   if (serviceFiles.length > 0) {
     serviceFiles.forEach((path, i) => {
-      // The public URL is the path without '/public'
       const publicUrl = path.replace('/public', '');
       projects.push({
         img: publicUrl,
@@ -53,9 +45,6 @@ const itemsPerPage = 9;
 let activeLightboxIndex = 0;
 let filteredProjects = [...projects];
 
-/**
- * Renders the active page grid items from the filtered set.
- */
 function renderGalleryPage() {
   const grid = document.getElementById('gallery-grid');
   if (!grid) return;
@@ -67,7 +56,6 @@ function renderGalleryPage() {
   const pageItems = filteredProjects.slice(startIndex, endIndex);
 
   pageItems.forEach((project, idx) => {
-    // The relative index of this card inside filteredProjects
     const originalFilteredIndex = startIndex + idx;
 
     const card = document.createElement('div');
@@ -104,9 +92,6 @@ function renderGalleryPage() {
   renderPaginationControls();
 }
 
-/**
- * Generates and appends pagination control buttons.
- */
 function renderPaginationControls() {
   const paginationContainer = document.getElementById('gallery-pagination');
   if (!paginationContainer) return;
@@ -121,7 +106,6 @@ function renderPaginationControls() {
 
   paginationContainer.style.display = 'flex';
 
-  // Anterior Button
   const prevBtn = document.createElement('button');
   prevBtn.className = `w-10 h-10 flex items-center justify-center rounded-full font-bold text-sm transition-all ${currentPage === 1 ? 'opacity-40 cursor-not-allowed bg-gray-100 text-gray-400' : 'bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF]'}`;
   prevBtn.innerHTML = '&#10094;';
@@ -134,7 +118,6 @@ function renderPaginationControls() {
   }
   paginationContainer.appendChild(prevBtn);
 
-  // sliding page button window
   const maxPageButtons = 5;
   let startPage = Math.max(1, currentPage - 2);
   let endPage = Math.min(totalPages, startPage + maxPageButtons - 1);
@@ -193,7 +176,6 @@ function renderPaginationControls() {
     paginationContainer.appendChild(lastBtn);
   }
 
-  // Siguiente Button
   const nextBtn = document.createElement('button');
   nextBtn.className = `w-10 h-10 flex items-center justify-center rounded-full font-bold text-sm transition-all ${currentPage === totalPages ? 'opacity-40 cursor-not-allowed bg-gray-100 text-gray-400' : 'bg-[#F4F6FA] text-gray-600 hover:bg-[#1E6FFF]/10 hover:text-[#1E6FFF]'}`;
   nextBtn.innerHTML = '&#10095;';
@@ -210,18 +192,13 @@ function renderPaginationControls() {
 function scrollToGalleryHeader() {
   const section = document.getElementById('galeria');
   if (section) {
-    // Scroll smoothly to gallery header so changes are immediately in focus
     section.scrollIntoView({ behavior: 'smooth' });
   }
 }
 
-/**
- * Initializes category pill selectors and registers dynamic filters.
- */
 export function initGallery() {
   const filterButtons = document.querySelectorAll('.gallery-filter-btn');
 
-  // Reset to first page and load everything
   currentPage = 1;
   filteredProjects = [...projects];
   renderGalleryPage();
@@ -230,7 +207,6 @@ export function initGallery() {
     btn.addEventListener('click', () => {
       const category = btn.getAttribute('data-category');
 
-      // Update active styling
       filterButtons.forEach(b => {
         b.classList.remove('bg-[#1E6FFF]', 'text-white');
         b.classList.add('bg-[#F4F6FA]', 'text-gray-600');
@@ -238,7 +214,6 @@ export function initGallery() {
       btn.classList.remove('bg-[#F4F6FA]', 'text-gray-600');
       btn.classList.add('bg-[#1E6FFF]', 'text-white');
 
-      // Filter list and reset to page 1
       if (category === 'all') {
         filteredProjects = [...projects];
       } else {
@@ -250,7 +225,6 @@ export function initGallery() {
     });
   });
 
-  // Setup Lightbox key event listeners
   window.removeEventListener('keydown', handleGlobalKeydown);
   window.addEventListener('keydown', handleGlobalKeydown);
 }
@@ -268,9 +242,6 @@ function handleGlobalKeydown(e) {
   }
 }
 
-/**
- * Opens Lightbox displaying selected index contents (bound globally).
- */
 window.openLightbox = function (filteredIndex) {
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
@@ -287,41 +258,29 @@ window.openLightbox = function (filteredIndex) {
   lightboxCaption.innerHTML = '';
 
   lightbox.classList.add('active');
-  document.body.style.overflow = 'hidden'; // stop page scrolling
+  document.body.style.overflow = 'hidden';
 };
 
-/**
- * Closes lightbox overlays (bound globally).
- */
 window.closeLightbox = function () {
   const lightbox = document.getElementById('lightbox');
   if (!lightbox) return;
 
   lightbox.classList.remove('active');
-  document.body.style.overflow = ''; // resume page scrolling
+  document.body.style.overflow = '';
 };
 
-/**
- * Triggers slide transitions to the next item inside the lightbox (bound globally).
- */
 window.nextLightboxImage = function () {
   if (filteredProjects.length === 0) return;
   const nextIndex = (activeLightboxIndex + 1) % filteredProjects.length;
   fadeImageTransition(nextIndex);
 };
 
-/**
- * Triggers slide transitions to the previous item inside the lightbox (bound globally).
- */
 window.prevLightboxImage = function () {
   if (filteredProjects.length === 0) return;
   const prevIndex = (activeLightboxIndex - 1 + filteredProjects.length) % filteredProjects.length;
   fadeImageTransition(prevIndex);
 };
 
-/**
- * Simple fade transition utility when jumping photos inside the lightbox
- */
 function fadeImageTransition(targetIndex) {
   const lightboxImg = document.getElementById('lightbox-img');
   const lightboxCaption = document.getElementById('lightbox-caption');

@@ -1,17 +1,14 @@
 import { initContactForm } from './js/contact.js';
 import { initGallery } from './js/gallery.js';
 import { initMenu } from './js/menu.js';
-import { initServiciosCotizacion } from './js/servicios.js'; // 🔥 NUEVO
-
+import { initServiciosCotizacion } from './js/servicios.js';
 document.addEventListener('DOMContentLoaded', () => {
 
-  // 🔥 INICIALIZACIONES
   initMenu();
   initContactForm();
   initGallery();
-  initServiciosCotizacion(); // 🔥 IMPORTANTE (esto activa los checkboxes)
+  initServiciosCotizacion();
 
-  // Navbar scroll
   const navbar = document.getElementById('navbar');
   if (navbar) {
     const onScroll = () => {
@@ -25,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
     onScroll();
   }
 
-  // Animaciones diferidas
   if ('requestIdleCallback' in window) {
     requestIdleCallback(() => {
       import('./js/animations.js').then(mod => {
@@ -40,7 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 1500);
   }
 
-  // Tracking WhatsApp
   document.body.addEventListener('click', (e) => {
     const a = e.target.closest('a');
     if (!a) return;
@@ -53,7 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Año dinámico
   const copyrightYearEl = document.getElementById('copyright-year');
   if (copyrightYearEl) {
     copyrightYearEl.textContent = new Date().getFullYear();

@@ -1,13 +1,9 @@
-/**
- * Initializes animations using GSAP. GSAP is dynamically imported to defer heavy JS.
- */
 export async function initAnimations() {
   try {
     const { gsap } = await import('gsap');
     const { ScrollTrigger } = await import('gsap/ScrollTrigger');
     gsap.registerPlugin(ScrollTrigger);
 
-    // Hero section entrance animation timeline
     const heroTl = gsap.timeline();
 
     if (document.getElementById('hero-title')) {
@@ -33,9 +29,6 @@ export async function initAnimations() {
       );
     }
 
-    // Stagger entry cards scroll timelines for standard grid divisions
-
-    // Services entries
     if (document.querySelector('#servicios .card-premium')) {
       gsap.from('#servicios .card-premium', {
         scrollTrigger: {
@@ -50,7 +43,6 @@ export async function initAnimations() {
       });
     }
 
-    // Why Choose Us entries
     if (document.querySelector('#porque .glass')) {
       gsap.from('#porque .glass', {
         scrollTrigger: {
@@ -65,7 +57,6 @@ export async function initAnimations() {
       });
     }
 
-    // Gallery entries
     if (document.querySelector('#galeria .gallery-card')) {
       gsap.from('#galeria .gallery-card', {
         scrollTrigger: {
@@ -80,9 +71,6 @@ export async function initAnimations() {
       });
     }
   } catch (err) {
-    // Fail gracefully if GSAP cannot load
     console.warn('GSAP failed to load or initialize:', err);
   }
 }
-
-// Note: The synchronous legacy init was removed to avoid duplicate declarations.
