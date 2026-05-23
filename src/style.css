@@ -1,0 +1,934 @@
+/* tipografías se cargan eficientemente en el HTML mediante <link rel="preconnect"> */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0A1628;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-inter text-gray-800 overflow-x-hidden;
+    background-color: #0A1628;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-montserrat;
+  }
+
+  /* Custom selection */
+  ::selection {
+    background-color: #1E6FFF;
+    color: #FFFFFF;
+  }
+}
+
+/* Glassmorphism Classes */
+.glass {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(30, 111, 255, 0.08);
+}
+
+.glass-nav {
+  background: rgba(10, 22, 40, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#navbar.navbar-scrolled {
+  background: rgba(10, 22, 40, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.glass-dark {
+  background: rgba(10, 22, 40, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Button & Micro-Interactions */
+.btn {
+  @apply relative overflow-hidden transition-all duration-300 inline-flex items-center justify-center text-center select-none active:scale-[0.97];
+  border-radius: 9999px;
+}
+
+/* Ripple effect container positioning */
+.btn-ripple-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple-anim 600ms linear;
+  background-color: rgba(255, 255, 255, 0.35);
+  pointer-events: none;
+}
+
+@keyframes ripple-anim {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+/* Custom Card Hover Scale & Glows */
+.card-premium {
+  @apply transition-all duration-300;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(30, 111, 255, 0.05);
+}
+
+.card-glow-primary:hover {
+  transform: scale(1.04) translateY(-4px);
+  box-shadow: 0 12px 40px rgba(30, 111, 255, 0.25);
+  border-color: rgba(30, 111, 255, 0.4);
+}
+
+.card-glow-accent:hover {
+  transform: scale(1.04) translateY(-4px);
+  box-shadow: 0 12px 40px rgba(255, 209, 0, 0.25);
+  border-color: rgba(255, 209, 0, 0.4);
+}
+
+/* Hero Background CSS Particle/Gradient Shift */
+.hero-gradient-bg {
+  background: linear-gradient(-45deg, #0A1628, #0D2D6B, #1a1a2e, #0A1628);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Logos Infinite Marquee */
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+
+.marquee-track-left {
+  display: flex;
+  width: max-content;
+  animation: marqueeLeft 35s linear infinite;
+}
+
+.marquee-track-right {
+  display: flex;
+  width: max-content;
+  animation: marqueeRight 35s linear infinite;
+}
+
+.marquee-container:hover .marquee-track-left,
+.marquee-container:hover .marquee-track-right {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeLeft {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marqueeRight {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* WhatsApp Pulse Animation */
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25D366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 32px rgba(37, 211, 102, 0.3);
+  z-index: 50;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #25D366;
+  border-radius: 50%;
+  opacity: 0.75;
+  z-index: -1;
+  animation: pulse-ring 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.75;
+  }
+
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.08) translateY(-3px);
+  background-color: #128C7E;
+  box-shadow: 0 12px 40px rgba(18, 140, 126, 0.4);
+}
+
+.whatsapp-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  right: 75px;
+  background-color: #0A1628;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: opacity 0.3s, visibility 0.3s;
+  pointer-events: none;
+}
+
+.whatsapp-float:hover .whatsapp-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Scroll To Top Button */
+.scroll-top-btn {
+  position: fixed;
+  bottom: 105px;
+  right: 35px;
+  background-color: #1E6FFF;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 32px rgba(30, 111, 255, 0.2);
+  z-index: 49;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.scroll-top-btn.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.scroll-top-btn:hover {
+  background-color: #FFD100;
+  color: #0A1628;
+  transform: scale(1.08) translateY(-3px);
+  box-shadow: 0 12px 40px rgba(255, 209, 0, 0.3);
+}
+
+/* Gallery Masonry and Grid transitions */
+.gallery-card {
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  will-change: transform, opacity;
+}
+
+.gallery-card.filtered-out {
+  opacity: 0;
+  transform: scale(0.85);
+  pointer-events: none;
+  position: absolute;
+  visibility: hidden;
+}
+
+/* Form Styles */
+.form-input-premium {
+  @apply w-full px-5 py-4 rounded-xl border border-gray-200 outline-none transition-all duration-300 bg-gray-50 focus:bg-white;
+}
+
+.form-input-premium:focus {
+  border-color: #1E6FFF;
+  box-shadow: 0 0 0 4px rgba(30, 111, 255, 0.15);
+}
+
+/* Lightbox Modal Styles */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(6, 14, 30, 0.95);
+  backdrop-filter: blur(12px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.lightbox-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 80%;
+  text-align: center;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+.lightbox-overlay.active .lightbox-content {
+  transform: scale(1);
+}
+
+.lightbox-img {
+  max-width: 100%;
+  max-height: 70vh;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: block;
+  margin: 0 auto;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.lightbox-caption {
+  color: white;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: white;
+  font-size: 40px;
+  font-weight: 300;
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: color 0.2s;
+  line-height: 1;
+}
+
+.lightbox-close:hover {
+  color: #FFD100;
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 24px;
+}
+
+.lightbox-nav:hover {
+  background: #1E6FFF;
+  border-color: #1E6FFF;
+  color: white;
+}
+
+.lightbox-prev {
+  left: 30px;
+}
+
+.lightbox-next {
+  right: 30px;
+}
+
+@media (max-width: 768px) {
+  .lightbox-nav {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+
+  .lightbox-prev {
+    left: 10px;
+  }
+
+  .lightbox-next {
+    right: 10px;
+  }
+}
+
+/* Pulsing effect in CSS */
+@keyframes pulse-light {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.pulse-slow {
+  animation: pulse-light 3s ease-in-out infinite;
+}
+
+/* Responsive adjustments for Mobile & Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+
+  /* Prevent horizontal scroll */
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  /* Section Padding reduction */
+  section,
+  .py-24 {
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+
+  .py-20 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .pt-20 {
+    padding-top: 3rem !important;
+  }
+
+  .pb-10 {
+    padding-bottom: 2rem !important;
+  }
+
+  .pt-24 {
+    padding-top: 3.5rem !important;
+  }
+
+  .pb-24 {
+    padding-bottom: 3.5rem !important;
+  }
+
+  .mb-20 {
+    margin-bottom: 2rem !important;
+  }
+
+  .mb-16 {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .mt-20 {
+    margin-top: 2rem !important;
+  }
+
+  /* Typography Fluid Scaling */
+  h1,
+  .text-4xl,
+  .text-5xl,
+  .text-6xl,
+  .text-7xl,
+  .text-8xl {
+    font-size: clamp(2rem, 7.5vw, 3.25rem) !important;
+    line-height: 1.15 !important;
+  }
+
+  h2,
+  h3,
+  .text-3xl {
+    font-size: clamp(1.6rem, 5.5vw, 2.25rem) !important;
+    line-height: 1.25 !important;
+  }
+
+  p,
+  .text-lg {
+    font-size: clamp(0.95rem, 3.5vw, 1.125rem) !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Navbar Adjustments */
+  #navbar {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  #navbar.navbar-scrolled {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+  }
+
+  #mobile-menu {
+    max-height: calc(100vh - 70px);
+    overflow-y: auto;
+  }
+
+  /* Hero Section adjustments */
+  #inicio {
+    min-height: 100svh !important;
+    padding-top: 6.5rem !important;
+    padding-bottom: 4rem !important;
+  }
+
+  #inicio .min-h-\[85vh\] {
+    min-height: auto !important;
+  }
+
+  #hero-title {
+    font-size: clamp(2.25rem, 8.5vw, 3.75rem) !important;
+    margin-bottom: 1.25rem !important;
+  }
+
+  #hero-subtitle {
+    font-size: clamp(1.05rem, 4vw, 1.35rem) !important;
+    margin-bottom: 2rem !important;
+  }
+
+  #hero-buttons {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    width: 100% !important;
+  }
+
+  #hero-buttons a {
+    width: 100% !important;
+  }
+
+  /* Portfolio/Gallery Filters Horizontal Scroll */
+  .overflow-x-auto.pb-4 {
+    flex-wrap: nowrap !important;
+    justify-content: flex-start !important;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.75rem !important;
+    margin-bottom: 1.5rem !important;
+    mask-image: linear-gradient(to right, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  }
+
+  .gallery-filter-btn {
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Floating WhatsApp and Scroll to Top buttons scaling */
+  .whatsapp-float {
+    width: 50px !important;
+    height: 50px !important;
+    bottom: 20px !important;
+    right: 20px !important;
+  }
+
+  .whatsapp-float svg {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .whatsapp-tooltip {
+    display: none !important;
+    /* Hide tooltips on touch screens */
+  }
+
+  .scroll-top-btn {
+    width: 42px !important;
+    height: 42px !important;
+    bottom: 85px !important;
+    right: 24px !important;
+  }
+
+  .scroll-top-btn svg {
+    width: 18px !important;
+    height: 18px !important;
+  }
+}
+
+/* Responsive adjustments for Small Mobile Phones (max-width: 480px) */
+@media (max-width: 480px) {
+
+  /* Layout Paddings */
+  section,
+  .py-24 {
+    padding-top: 2.75rem !important;
+    padding-bottom: 2.75rem !important;
+  }
+
+  .px-6 {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+
+  /* Buttons width */
+  #btn-cotizar,
+  #galeria a.btn,
+  #contacto button[type="submit"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+    font-size: 1rem !important;
+    height: auto !important;
+  }
+
+  /* Form Container padding and styling */
+  #contacto .p-8,
+  #contacto .md\:p-12 {
+    padding: 1.5rem !important;
+    border-radius: 20px !important;
+  }
+
+  .form-input-premium {
+    padding: 0.85rem 1rem !important;
+    font-size: 0.95rem !important;
+  }
+
+  /* Counter section grids padding */
+  .divide-y> :not([hidden])~ :not([hidden]) {
+    border-top-width: 1px !important;
+  }
+
+  /* Lightbox Mobile Adjustments */
+  .lightbox-close {
+    top: 15px !important;
+    right: 15px !important;
+    font-size: 32px !important;
+  }
+
+  .lightbox-caption {
+    font-size: 15px !important;
+    margin-top: 12px !important;
+  }
+
+  .lightbox-nav {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 15px !important;
+  }
+
+  .lightbox-prev {
+    left: 8px !important;
+  }
+
+  .lightbox-next {
+    right: 8px !important;
+  }
+}
+
+/* Hamburger Animation (Progressive Enhancement) */
+#navbar:has(#mobile-menu:not(.hidden)) #line1 {
+  transform: translateY(10px) rotate(45deg);
+}
+
+#navbar:has(#mobile-menu:not(.hidden)) #line2 {
+  opacity: 0;
+}
+
+#navbar:has(#mobile-menu:not(.hidden)) #line3 {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+/* Service Selection styling overrides & Visual Enhancements */
+
+/* 1. Header Icon Wrapper styling & colors */
+#servicios>div>div.grid>div:first-child div.w-14 {
+  background: linear-gradient(135deg, #FFFFFF, #F0F6FF) !important;
+  border-color: rgba(30, 111, 255, 0.2) !important;
+  color: #1E6FFF !important;
+  box-shadow: 0 8px 25px rgba(30, 111, 255, 0.1) !important;
+}
+
+#servicios>div>div.grid>div:last-child div.w-14 {
+  background: linear-gradient(135deg, #FFFFFF, #FFFDF0) !important;
+  border-color: rgba(255, 209, 0, 0.3) !important;
+  color: #E6B800 !important;
+  box-shadow: 0 8px 25px rgba(255, 209, 0, 0.1) !important;
+}
+
+/* 2. Default Cards Styles - Column 1 (Blue themed - Publicidad y Producción) */
+#servicios>div>div.grid>div:first-child label div.h-full {
+  background: linear-gradient(135deg, #FFFFFF 75%, #F5F9FF 100%) !important;
+  border-color: rgba(30, 111, 255, 0.05) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+#servicios>div>div.grid>div:first-child label:hover div.h-full {
+  border-color: rgba(30, 111, 255, 0.3) !important;
+  box-shadow: 0 10px 30px rgba(30, 111, 255, 0.08) !important;
+  transform: translateY(-2px);
+}
+
+/* 3. Default Cards Styles - Column 2 (Yellow/Amber themed - Rotulación y Estructuras) */
+#servicios>div>div.grid>div:last-child label div.h-full {
+  background: linear-gradient(135deg, #FFFFFF 75%, #FFFDF2 100%) !important;
+  border-color: rgba(255, 209, 0, 0.08) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+#servicios>div>div.grid>div:last-child label:hover div.h-full {
+  border-color: rgba(255, 209, 0, 0.35) !important;
+  box-shadow: 0 10px 30px rgba(255, 209, 0, 0.08) !important;
+  transform: translateY(-2px);
+}
+
+/* 4. Active Selected States - Column 1 (Blue) */
+#servicios>div>div.grid>div:first-child input.servicio-check:checked+div.rounded-2xl {
+  border-color: #1E6FFF !important;
+  background: linear-gradient(135deg, #F0F6FF 0%, #E5EFFF 100%) !important;
+  box-shadow: 0 8px 25px rgba(30, 111, 255, 0.12) !important;
+}
+
+#servicios>div>div.grid>div:first-child input.servicio-check:checked+div.rounded-2xl span {
+  color: #1E6FFF !important;
+}
+
+#servicios>div>div.grid>div:first-child input.servicio-check:checked+div.rounded-2xl div {
+  border-color: #1E6FFF !important;
+  background-color: #1E6FFF !important;
+}
+
+#servicios>div>div.grid>div:first-child input.servicio-check:checked+div.rounded-2xl svg {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+
+/* 5. Active Selected States - Column 2 (Yellow/Amber) */
+#servicios>div>div.grid>div:last-child input.servicio-check:checked+div.rounded-2xl {
+  border-color: #FFD100 !important;
+  background: linear-gradient(135deg, #FFFDF0 0%, #FFFBE6 100%) !important;
+  box-shadow: 0 8px 25px rgba(255, 209, 0, 0.15) !important;
+}
+
+#servicios>div>div.grid>div:last-child input.servicio-check:checked+div.rounded-2xl span {
+  color: #B28900 !important;
+}
+
+#servicios>div>div.grid>div:last-child input.servicio-check:checked+div.rounded-2xl div {
+  border-color: #FFD100 !important;
+  background-color: #FFD100 !important;
+}
+
+#servicios>div>div.grid>div:last-child input.servicio-check:checked+div.rounded-2xl svg {
+  opacity: 1 !important;
+  color: #0A1628 !important;
+  transform: scale(1) !important;
+}
+
+/* 6. Additional Services Pills (Green themed - Instalación, Reparación, Mantenimiento) */
+#servicios input.servicio-check+div.rounded-full {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  border-color: rgba(16, 185, 129, 0.08) !important;
+  background: linear-gradient(135deg, #FFFFFF 75%, #F0FBF7 100%) !important;
+}
+
+#servicios label:hover div.rounded-full {
+  border-color: rgba(16, 185, 129, 0.35) !important;
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.08) !important;
+  transform: translateY(-2px);
+}
+
+#servicios input.servicio-check:checked+div.rounded-full {
+  border-color: #10B981 !important;
+  background: linear-gradient(135deg, #F0FBF7 0%, #E6F7F0 100%) !important;
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.12) !important;
+}
+
+#servicios input.servicio-check:checked+div.rounded-full span {
+  color: #10B981 !important;
+}
+
+#servicios input.servicio-check:checked+div.rounded-full div {
+  border-color: #10B981 !important;
+  background-color: #10B981 !important;
+}
+
+#servicios input.servicio-check:checked+div.rounded-full svg {
+  opacity: 1 !important;
+  color: #FFFFFF !important;
+  transform: scale(1) !important;
+}
+
+/* Common animation states for checkbox icons */
+.servicio-check+div svg {
+  transform: scale(0);
+  opacity: 0;
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s ease;
+}
+
+.servicio-check+div div {
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* ==========================================================================
+   PREMIUM HERO ENTRANCE COLOR BOMB & AMBIENT GLOW EFFECTS
+   ========================================================================== */
+
+/* FOUC (Flash of Un-animated Content) Prevention */
+.hero-reveal-init {
+  opacity: 0;
+  transform: translateY(30px);
+  filter: blur(5px);
+  pointer-events: none;
+}
+
+/* Dual Color Bomb Canvases styling with hardware acceleration and blend mode */
+#hero-color-bomb-fluid {
+  mix-blend-mode: screen;
+  filter: blur(60px) saturate(1.8) contrast(1.1);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 1.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+#hero-color-bomb-particles {
+  mix-blend-mode: screen;
+  filter: blur(1.5px) saturate(1.4);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 1s ease-out;
+}
+
+/* Golden text and neon glow for "merece brillar" */
+.highlight-brillar {
+  position: relative;
+  display: inline-block;
+  color: #FFD100;
+  text-shadow: 0 0 10px rgba(255, 209, 0, 0);
+  transition: text-shadow 0.8s ease-in-out;
+}
+
+.highlight-brillar.glow-active {
+  text-shadow: 0 0 15px rgba(255, 209, 0, 0.5), 0 0 30px rgba(255, 209, 0, 0.25);
+  animation: brillar-glow-pulse 4s ease-in-out infinite alternate;
+}
+
+@keyframes brillar-glow-pulse {
+  0% {
+    text-shadow: 0 0 12px rgba(255, 209, 0, 0.35), 0 0 25px rgba(255, 209, 0, 0.15);
+  }
+
+  100% {
+    text-shadow: 0 0 22px rgba(255, 209, 0, 0.75), 0 0 45px rgba(255, 209, 0, 0.4), 0 0 12px rgba(30, 111, 255, 0.35);
+  }
+}
+
+/* Ambient backdrop radial gradient */
+.highlight-glow-bg {
+  background: radial-gradient(circle, rgba(255, 209, 0, 0.22) 0%, rgba(30, 111, 255, 0.05) 50%, rgba(0, 0, 0, 0) 70%);
+  transition: opacity 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+  mix-blend-mode: screen;
+}
+
+.highlight-glow-bg.glow-active {
+  opacity: 1;
+}
+
+/* Premium Shimmer Sweep effect across the text */
+.highlight-brillar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.25) 50%,
+      rgba(255, 255, 255, 0) 100%);
+  transform: skewX(-25deg);
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+.highlight-brillar.shimmer-active::after {
+  animation: brillar-shimmer-sweep 4s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+
+@keyframes brillar-shimmer-sweep {
+  0% {
+    left: -150%;
+  }
+
+  30% {
+    left: 180%;
+  }
+
+  100% {
+    left: 180%;
+  }
+}
