@@ -5,7 +5,7 @@ const servicesList = [
   { id: "microperforados", name: "Microperforados" },
   { id: "sandblasting", name: "Sandblasting" },
   { id: "corte-electronico", name: "Corte Electrónico" },
-  { id: "letras-caja", name: "Letras de Caja" },
+  { id: "corporeos", name: "Rótulos Corporeos" },
   { id: "letras-planas-laser", name: "Letras Planas con Corte en Láser" },
   { id: "placas-acrilicas", name: "Placas Acrílicas" },
   { id: "placas-pvc", name: "Placas PVC" },
@@ -13,10 +13,9 @@ const servicesList = [
   { id: "rotulacion-vehicular", name: "Rotulación Vehicular" },
   { id: "rotulos-marco-lona", name: "Rótulos Marco y Lona" },
   { id: "rotulos-metalicos", name: "Rótulos Metálicos (Vallas y Rótulos)" },
+  { id: "coroplast", name: "Coroplast" },
   { id: "rotulos-luminosos", name: "Rótulos Luminosos" },
   { id: "instalacion", name: "Instalación" },
-  { id: "reparacion", name: "Reparación" },
-  { id: "mantenimiento", name: "Mantenimiento" }
 ];
 
 const globbedFiles = import.meta.glob('/public/**/*.{jpg,jpeg,png,webp,avif,gif}');
@@ -68,7 +67,7 @@ function renderGalleryPage() {
         <img 
           src="${project.imgSmall}" 
           alt="" 
-          class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+          class="w-full h-full object-cover transition-transform duration-700 ease-out"
           loading="lazy" decoding="async"
         />
 
