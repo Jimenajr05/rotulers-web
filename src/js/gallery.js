@@ -21,6 +21,8 @@ const servicesList = [
 const globbedFiles = import.meta.glob('/public/**/*.{jpg,jpeg,png,webp,avif,gif}');
 const filePaths = Object.keys(globbedFiles);
 
+let imageManifest = null; // populated by loadManifest()
+
 const projects = [];
 servicesList.forEach(service => {
   const serviceFiles = filePaths.filter(path => path.includes(`/${service.id}/`));
@@ -28,13 +30,14 @@ servicesList.forEach(service => {
   if (serviceFiles.length > 0) {
     serviceFiles.forEach((path, i) => {
       const publicUrl = path.replace('/public', '');
-      projects.push({
-        img: publicUrl,
-        imgSmall: publicUrl,
-        title: service.name,
-        category: service.name,
-        categoryId: service.id
-      });
+          projects.push({
+            img: publicUrl,
+            imgSmall: publicUrl,
+            title: service.name,
+            category: service.name,
+            categoryId: service.id,
+            variants: null
+          });
     });
   }
 });
@@ -61,15 +64,25 @@ function renderGalleryPage() {
     card.className = "gallery-card group relative overflow-hidden rounded-[20px] aspect-[4/3] cursor-pointer shadow-lg border border-gray-100";
     card.setAttribute('onclick', `openLightbox(${originalFilteredIndex})`);
 
+    const avifSrcset = project.variants && project.variants.avif ? project.variants.avif.map((p, i) => `${p} ${[400,800,1200][i]}w`).join(', ') : '';
+    const webpSrcset = project.variants && project.variants.webp ? project.variants.webp.map((p, i) => `${p} ${[400,800,1200][i]}w`).join(', ') : '';
+    const fallbackSrcset = project.variants && project.variants.fallback ? project.variants.fallback.map((p, i) => `${p} ${[400,800,1200][i]}w`).join(', ') : '';
+
     card.innerHTML = `
       <div class="relative w-full h-full overflow-hidden rounded-[20px]">
-        
-        <img 
-          src="${project.imgSmall}" 
-          alt="" 
-          class="w-full h-full object-cover transition-transform duration-700 ease-out"
-          loading="lazy" decoding="async"
-        />
+        <picture>
+          ${avifSrcset ? `<source type="image/avif" data-srcset="${avifSrcset}">` : ''}
+          ${webpSrcset ? `<source type="image/webp" data-srcset="${webpSrcset}">` : ''}
+          <img 
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMScgaGVpZ2h0PScxJyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnLz4="
+            data-src="${project.imgSmall}"
+            data-srcset="${fallbackSrcset}"
+            alt="${project.title || ''}" 
+            width="800" height="600"
+            class="w-full h-full object-cover transition-transform duration-700 ease-out lazy-img"
+            loading="lazy" decoding="async"
+          />
+        </picture>
 
         <!-- overlay suave -->
         <div class="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition duration-500"></div>
@@ -88,7 +101,67 @@ function renderGalleryPage() {
     grid.appendChild(card);
   });
 
+  // after rendering the page, (re)attach lazy loader to new images and sources
+  observeLazyImages();
+
   renderPaginationControls();
+}
+
+// IntersectionObserver for lazy-loading images only when they enter viewport
+let lazyObserver = null;
+function observeLazyImages() {
+  const lazyImages = Array.from(document.querySelectorAll('img.lazy-img[data-src]'));
+  const lazySources = Array.from(document.querySelectorAll('source[data-srcset]'));
+  if (lazyImages.length === 0 && lazySources.length === 0) return;
+
+  if ('IntersectionObserver' in window) {
+    if (!lazyObserver) {
+      lazyObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const el = entry.target;
+          if (el.tagName && el.tagName.toLowerCase() === 'img') {
+            const src = el.getAttribute('data-src');
+            const srcset = el.getAttribute('data-srcset');
+            if (src) el.src = src;
+            if (srcset) el.srcset = srcset;
+            el.removeAttribute('data-src');
+            el.removeAttribute('data-srcset');
+            el.classList.remove('lazy-img');
+            observer.unobserve(el);
+          } else if (el.tagName && el.tagName.toLowerCase() === 'source') {
+            const ss = el.getAttribute('data-srcset');
+            if (ss) el.srcset = ss;
+            el.removeAttribute('data-srcset');
+            observer.unobserve(el);
+          }
+        });
+      }, {
+        root: null,
+        rootMargin: '200px',
+        threshold: 0.01
+      });
+    }
+
+    lazyImages.forEach(img => {
+      if (img.getAttribute('data-src')) lazyObserver.observe(img);
+    });
+    lazySources.forEach(src => {
+      if (src.getAttribute('data-srcset')) lazyObserver.observe(src);
+    });
+  } else {
+    // Fallback: load all images immediately
+    lazyImages.forEach(img => {
+      const src = img.getAttribute('data-src');
+      const srcset = img.getAttribute('data-srcset');
+      if (src) img.src = src;
+      if (srcset) img.srcset = srcset;
+    });
+    lazySources.forEach(s => {
+      const ss = s.getAttribute('data-srcset');
+      if (ss) s.srcset = ss;
+    });
+  }
 }
 
 function renderPaginationControls() {
@@ -228,6 +301,28 @@ export function initGallery() {
   window.addEventListener('keydown', handleGlobalKeydown);
 }
 
+async function loadManifest() {
+  try {
+    const res = await fetch('/_image-manifest.json');
+    if (!res.ok) return;
+    imageManifest = await res.json();
+
+    // attach variants to projects by matching img path
+    projects.forEach(p => {
+      if (imageManifest && imageManifest[p.img]) {
+        p.variants = imageManifest[p.img];
+      }
+    });
+  } catch (e) {
+    // ignore manifest errors
+  }
+}
+
+export async function initGalleryAsync() {
+  await loadManifest();
+  return initGallery();
+}
+
 function handleGlobalKeydown(e) {
   const lightbox = document.getElementById('lightbox');
   if (!lightbox || !lightbox.classList.contains('active')) return;
@@ -258,6 +353,8 @@ window.openLightbox = function (filteredIndex) {
 
   lightbox.classList.add('active');
   document.body.style.overflow = 'hidden';
+  // preload neighbor images for smoother navigation
+  preloadNeighborImages(filteredIndex);
 };
 
 window.closeLightbox = function () {
@@ -299,4 +396,18 @@ function fadeImageTransition(targetIndex) {
     }
     lightboxImg.style.opacity = '1';
   }, 200);
+}
+
+function preloadNeighborImages(index) {
+  if (!filteredProjects || filteredProjects.length === 0) return;
+  const nextIndex = (index + 1) % filteredProjects.length;
+  const prevIndex = (index - 1 + filteredProjects.length) % filteredProjects.length;
+
+  [nextIndex, prevIndex].forEach(i => {
+    const p = filteredProjects[i];
+    if (p && p.img) {
+      const img = new Image();
+      img.src = p.img;
+    }
+  });
 }

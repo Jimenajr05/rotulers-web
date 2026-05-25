@@ -1,12 +1,12 @@
 import { initContactForm } from './js/contact.js';
-import { initGallery } from './js/gallery.js';
+import { initGalleryAsync } from './js/gallery.js';
 import { initMenu } from './js/menu.js';
 import { initServiciosCotizacion } from './js/servicios.js';
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
 
   initMenu();
   initContactForm();
-  initGallery();
+  await initGalleryAsync();
   initServiciosCotizacion();
 
   const navbar = document.getElementById('navbar');
