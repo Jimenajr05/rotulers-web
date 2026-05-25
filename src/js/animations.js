@@ -44,30 +44,44 @@ export async function initAnimations() {
     }
 
     if (document.querySelector('#porque .glass')) {
-      gsap.from('#porque .glass', {
+      const porqueTl = gsap.timeline({
         scrollTrigger: {
           trigger: '#porque',
-          start: 'top 80%',
-        },
+          start: 'top bottom',
+          toggleActions: 'play none none none',
+          once: true,
+          markers: false
+        }
+      });
+
+      porqueTl.from('#porque .glass', {
         opacity: 0,
         y: 40,
         stagger: 0.12,
         duration: 0.7,
-        ease: 'power2.out'
+        ease: 'power2.out',
+        immediateRender: false
       });
     }
 
     if (document.querySelector('#galeria .gallery-card')) {
-      gsap.from('#galeria .gallery-card', {
+      const galeriaTl = gsap.timeline({
         scrollTrigger: {
           trigger: '#galeria',
-          start: 'top 80%',
-        },
+          start: 'top bottom',
+          toggleActions: 'play none none none',
+          once: true,
+          markers: false
+        }
+      });
+
+      galeriaTl.from('#galeria .gallery-card', {
         opacity: 0,
         scale: 0.9,
         stagger: 0.1,
         duration: 0.6,
-        ease: 'back.out(1.2)'
+        ease: 'back.out(1.2)',
+        immediateRender: false
       });
     }
   } catch (err) {
