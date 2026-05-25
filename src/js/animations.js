@@ -3,6 +3,8 @@ export async function initAnimations() {
     const { gsap } = await import('gsap');
     const { ScrollTrigger } = await import('gsap/ScrollTrigger');
     gsap.registerPlugin(ScrollTrigger);
+    window.gsap = gsap;
+    window.ScrollTrigger = ScrollTrigger;
 
     const heroTl = gsap.timeline();
 
@@ -64,27 +66,47 @@ export async function initAnimations() {
       });
     }
 
-    if (document.querySelector('#galeria .gallery-card')) {
-      const galeriaTl = gsap.timeline({
-        scrollTrigger: {
-          trigger: '#galeria',
-          start: 'top bottom',
-          toggleActions: 'play none none none',
-          once: true,
-          markers: false
-        }
-      });
-
-      galeriaTl.from('#galeria .gallery-card', {
-        opacity: 0,
-        scale: 0.9,
-        stagger: 0.1,
-        duration: 0.6,
-        ease: 'back.out(1.2)',
-        immediateRender: false
-      });
+    if (document.getElementById('galeria')) {
+      animateGalleryCards();
     }
   } catch (err) {
     console.warn('GSAP failed to load or initialize:', err);
   }
 }
+
+export function animateGalleryCards() {
+  const gsap = window.gsap;
+  const ScrollTrigger = window.ScrollTrigger;
+  if (!gsap) return;
+
+  const cards = document.querySelectorAll('#galeria .gallery-card');
+  if (cards.length === 0) return;
+
+  if (ScrollTrigger) {
+    gsap.fromTo(cards,
+      { opacity: 0, scale: 0.95, y: 20 },
+      {
+        opacity: 1,
+        scale: 1,
+        y: 0,
+        duration: 0.6,
+        stagger: 0.08,
+        ease: 'power2.out',
+        overwrite: 'auto',
+        scrollTrigger: {
+          trigger: '#gallery-grid',
+          start: 'top 92%',
+          toggleActions: 'play none none none',
+          once: true
+        }
+      }
+    );
+  } else {
+    gsap.fromTo(cards,
+      { opacity: 0, scale: 0.95, y: 20 },
+      { opacity: 1, scale: 1, y: 0, duration: 0.6, stagger: 0.08, ease: 'power2.out', overwrite: 'auto' }
+    );
+  }
+}
+
+window.animateGalleryCards = animateGalleryCards;

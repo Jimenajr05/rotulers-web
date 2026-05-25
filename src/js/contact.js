@@ -6,9 +6,6 @@ export function initContactForm() {
   const servicioSelect = document.getElementById('servicio');
 
   const fields = [
-    { id: 'nombre', errorId: 'error-nombre' },
-    { id: 'telefono', errorId: 'error-telefono' },
-    { id: 'servicio', errorId: 'error-servicio' },
     { id: 'mensaje', errorId: 'error-mensaje' }
   ];
 
@@ -129,7 +126,22 @@ export function initContactForm() {
       }
     }
 
-    const textoWhatsApp = `Hola Rotulers 👋\n\nMi nombre es: ${nombre}\n\n${mensajeInput}\n\nMis datos de contacto:\n📞 Teléfono: ${telefono}\n${email ? `📧 Email: ${email}` : ''}`;
+    let textoWhatsApp = `Hola Rotulers 👋\n\n`;
+    if (nombre) {
+      textoWhatsApp += `Mi nombre es: ${nombre}\n\n`;
+    }
+    
+    textoWhatsApp += `${mensajeInput}`;
+    
+    if (telefono || email) {
+      textoWhatsApp += `\n\nMis datos de contacto:`;
+      if (telefono) {
+        textoWhatsApp += `\n📞 Teléfono: ${telefono}`;
+      }
+      if (email) {
+        textoWhatsApp += `\n📧 Email: ${email}`;
+      }
+    }
 
     const numeroWhatsApp = "50689080161";
     const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(textoWhatsApp)}`;

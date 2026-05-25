@@ -1,6 +1,10 @@
-const fs = require('fs');
-const path = require('path');
-const sharp = require('sharp');
+import fs from 'fs';
+import path from 'path';
+import sharp from 'sharp';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Config
 const PUBLIC_DIR = path.join(__dirname, '..', 'public');
@@ -39,6 +43,8 @@ async function ensureDir(dir) {
     for (const file of all) {
       // skip manifest itself
       if (file.endsWith('_image-manifest.json')) continue;
+      // skip already generated responsive images
+      if (/-(400|800|1200)\.(jpe?g|png|webp|avif|gif)$/i.test(file)) continue;
 
       const rel = path.relative(PUBLIC_DIR, file).replace(/\\\\/g, '/');
       const ext = path.extname(file).toLowerCase();

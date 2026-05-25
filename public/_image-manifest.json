@@ -1,0 +1,2535 @@
+{
+  "/adhesivos\\20231201_161515.jpg": {
+    "avif": [
+      "/adhesivos\\20231201_161515-400.avif",
+      "/adhesivos\\20231201_161515-800.avif",
+      "/adhesivos\\20231201_161515-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\20231201_161515-400.webp",
+      "/adhesivos\\20231201_161515-800.webp",
+      "/adhesivos\\20231201_161515-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\20231201_161515-400.jpg",
+      "/adhesivos\\20231201_161515-800.jpg",
+      "/adhesivos\\20231201_161515-1200.jpg"
+    ]
+  },
+  "/adhesivos\\20240202_191507.jpg": {
+    "avif": [
+      "/adhesivos\\20240202_191507-400.avif",
+      "/adhesivos\\20240202_191507-800.avif",
+      "/adhesivos\\20240202_191507-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\20240202_191507-400.webp",
+      "/adhesivos\\20240202_191507-800.webp",
+      "/adhesivos\\20240202_191507-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\20240202_191507-400.jpg",
+      "/adhesivos\\20240202_191507-800.jpg",
+      "/adhesivos\\20240202_191507-1200.jpg"
+    ]
+  },
+  "/adhesivos\\20240216_115929.jpg": {
+    "avif": [
+      "/adhesivos\\20240216_115929-400.avif",
+      "/adhesivos\\20240216_115929-800.avif",
+      "/adhesivos\\20240216_115929-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\20240216_115929-400.webp",
+      "/adhesivos\\20240216_115929-800.webp",
+      "/adhesivos\\20240216_115929-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\20240216_115929-400.jpg",
+      "/adhesivos\\20240216_115929-800.jpg",
+      "/adhesivos\\20240216_115929-1200.jpg"
+    ]
+  },
+  "/adhesivos\\20240806_164738.jpg": {
+    "avif": [
+      "/adhesivos\\20240806_164738-400.avif",
+      "/adhesivos\\20240806_164738-800.avif",
+      "/adhesivos\\20240806_164738-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\20240806_164738-400.webp",
+      "/adhesivos\\20240806_164738-800.webp",
+      "/adhesivos\\20240806_164738-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\20240806_164738-400.jpg",
+      "/adhesivos\\20240806_164738-800.jpg",
+      "/adhesivos\\20240806_164738-1200.jpg"
+    ]
+  },
+  "/adhesivos\\20240920_121913.jpg": {
+    "avif": [
+      "/adhesivos\\20240920_121913-400.avif",
+      "/adhesivos\\20240920_121913-800.avif",
+      "/adhesivos\\20240920_121913-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\20240920_121913-400.webp",
+      "/adhesivos\\20240920_121913-800.webp",
+      "/adhesivos\\20240920_121913-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\20240920_121913-400.jpg",
+      "/adhesivos\\20240920_121913-800.jpg",
+      "/adhesivos\\20240920_121913-1200.jpg"
+    ]
+  },
+  "/adhesivos\\20240924_113846.jpg": {
+    "avif": [
+      "/adhesivos\\20240924_113846-400.avif",
+      "/adhesivos\\20240924_113846-800.avif",
+      "/adhesivos\\20240924_113846-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\20240924_113846-400.webp",
+      "/adhesivos\\20240924_113846-800.webp",
+      "/adhesivos\\20240924_113846-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\20240924_113846-400.jpg",
+      "/adhesivos\\20240924_113846-800.jpg",
+      "/adhesivos\\20240924_113846-1200.jpg"
+    ]
+  },
+  "/adhesivos\\20250114_182453.jpg": {
+    "avif": [
+      "/adhesivos\\20250114_182453-400.avif",
+      "/adhesivos\\20250114_182453-800.avif",
+      "/adhesivos\\20250114_182453-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\20250114_182453-400.webp",
+      "/adhesivos\\20250114_182453-800.webp",
+      "/adhesivos\\20250114_182453-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\20250114_182453-400.jpg",
+      "/adhesivos\\20250114_182453-800.jpg",
+      "/adhesivos\\20250114_182453-1200.jpg"
+    ]
+  },
+  "/adhesivos\\20250723_102755.jpg": {
+    "avif": [
+      "/adhesivos\\20250723_102755-400.avif",
+      "/adhesivos\\20250723_102755-800.avif",
+      "/adhesivos\\20250723_102755-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\20250723_102755-400.webp",
+      "/adhesivos\\20250723_102755-800.webp",
+      "/adhesivos\\20250723_102755-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\20250723_102755-400.jpg",
+      "/adhesivos\\20250723_102755-800.jpg",
+      "/adhesivos\\20250723_102755-1200.jpg"
+    ]
+  },
+  "/adhesivos\\20250723_104102.jpg": {
+    "avif": [
+      "/adhesivos\\20250723_104102-400.avif",
+      "/adhesivos\\20250723_104102-800.avif",
+      "/adhesivos\\20250723_104102-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\20250723_104102-400.webp",
+      "/adhesivos\\20250723_104102-800.webp",
+      "/adhesivos\\20250723_104102-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\20250723_104102-400.jpg",
+      "/adhesivos\\20250723_104102-800.jpg",
+      "/adhesivos\\20250723_104102-1200.jpg"
+    ]
+  },
+  "/adhesivos\\IMG-20240320-WA0082.jpg": {
+    "avif": [
+      "/adhesivos\\IMG-20240320-WA0082-400.avif",
+      "/adhesivos\\IMG-20240320-WA0082-800.avif",
+      "/adhesivos\\IMG-20240320-WA0082-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\IMG-20240320-WA0082-400.webp",
+      "/adhesivos\\IMG-20240320-WA0082-800.webp",
+      "/adhesivos\\IMG-20240320-WA0082-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\IMG-20240320-WA0082-400.jpg",
+      "/adhesivos\\IMG-20240320-WA0082-800.jpg",
+      "/adhesivos\\IMG-20240320-WA0082-1200.jpg"
+    ]
+  },
+  "/adhesivos\\la paz.jpg": {
+    "avif": [
+      "/adhesivos\\la paz-400.avif",
+      "/adhesivos\\la paz-800.avif",
+      "/adhesivos\\la paz-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\la paz-400.webp",
+      "/adhesivos\\la paz-800.webp",
+      "/adhesivos\\la paz-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\la paz-400.jpg",
+      "/adhesivos\\la paz-800.jpg",
+      "/adhesivos\\la paz-1200.jpg"
+    ]
+  },
+  "/adhesivos\\palco.jpg": {
+    "avif": [
+      "/adhesivos\\palco-400.avif",
+      "/adhesivos\\palco-800.avif",
+      "/adhesivos\\palco-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\palco-400.webp",
+      "/adhesivos\\palco-800.webp",
+      "/adhesivos\\palco-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\palco-400.jpg",
+      "/adhesivos\\palco-800.jpg",
+      "/adhesivos\\palco-1200.jpg"
+    ]
+  },
+  "/adhesivos\\Sabor a mar.jpg": {
+    "avif": [
+      "/adhesivos\\Sabor a mar-400.avif",
+      "/adhesivos\\Sabor a mar-800.avif",
+      "/adhesivos\\Sabor a mar-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\Sabor a mar-400.webp",
+      "/adhesivos\\Sabor a mar-800.webp",
+      "/adhesivos\\Sabor a mar-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\Sabor a mar-400.jpg",
+      "/adhesivos\\Sabor a mar-800.jpg",
+      "/adhesivos\\Sabor a mar-1200.jpg"
+    ]
+  },
+  "/adhesivos\\Super mas.jpg": {
+    "avif": [
+      "/adhesivos\\Super mas-400.avif",
+      "/adhesivos\\Super mas-800.avif",
+      "/adhesivos\\Super mas-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\Super mas-400.webp",
+      "/adhesivos\\Super mas-800.webp",
+      "/adhesivos\\Super mas-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\Super mas-400.jpg",
+      "/adhesivos\\Super mas-800.jpg",
+      "/adhesivos\\Super mas-1200.jpg"
+    ]
+  },
+  "/adhesivos\\USL.jpg": {
+    "avif": [
+      "/adhesivos\\USL-400.avif",
+      "/adhesivos\\USL-800.avif",
+      "/adhesivos\\USL-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\USL-400.webp",
+      "/adhesivos\\USL-800.webp",
+      "/adhesivos\\USL-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\USL-400.jpg",
+      "/adhesivos\\USL-800.jpg",
+      "/adhesivos\\USL-1200.jpg"
+    ]
+  },
+  "/adhesivos\\WhatsApp Image 2026-05-23 at 3.53.15 PM.jpeg": {
+    "avif": [
+      "/adhesivos\\WhatsApp Image 2026-05-23 at 3.53.15 PM-400.avif",
+      "/adhesivos\\WhatsApp Image 2026-05-23 at 3.53.15 PM-800.avif",
+      "/adhesivos\\WhatsApp Image 2026-05-23 at 3.53.15 PM-1200.avif"
+    ],
+    "webp": [
+      "/adhesivos\\WhatsApp Image 2026-05-23 at 3.53.15 PM-400.webp",
+      "/adhesivos\\WhatsApp Image 2026-05-23 at 3.53.15 PM-800.webp",
+      "/adhesivos\\WhatsApp Image 2026-05-23 at 3.53.15 PM-1200.webp"
+    ],
+    "fallback": [
+      "/adhesivos\\WhatsApp Image 2026-05-23 at 3.53.15 PM-400.jpeg",
+      "/adhesivos\\WhatsApp Image 2026-05-23 at 3.53.15 PM-800.jpeg",
+      "/adhesivos\\WhatsApp Image 2026-05-23 at 3.53.15 PM-1200.jpeg"
+    ]
+  },
+  "/coroplast\\20240321_104334.jpg": {
+    "avif": [
+      "/coroplast\\20240321_104334-400.avif",
+      "/coroplast\\20240321_104334-800.avif",
+      "/coroplast\\20240321_104334-1200.avif"
+    ],
+    "webp": [
+      "/coroplast\\20240321_104334-400.webp",
+      "/coroplast\\20240321_104334-800.webp",
+      "/coroplast\\20240321_104334-1200.webp"
+    ],
+    "fallback": [
+      "/coroplast\\20240321_104334-400.jpg",
+      "/coroplast\\20240321_104334-800.jpg",
+      "/coroplast\\20240321_104334-1200.jpg"
+    ]
+  },
+  "/coroplast\\WhatsApp Image 2026-05-23 at 3.55.59 PM.jpeg": {
+    "avif": [
+      "/coroplast\\WhatsApp Image 2026-05-23 at 3.55.59 PM-400.avif",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 3.55.59 PM-800.avif",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 3.55.59 PM-1200.avif"
+    ],
+    "webp": [
+      "/coroplast\\WhatsApp Image 2026-05-23 at 3.55.59 PM-400.webp",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 3.55.59 PM-800.webp",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 3.55.59 PM-1200.webp"
+    ],
+    "fallback": [
+      "/coroplast\\WhatsApp Image 2026-05-23 at 3.55.59 PM-400.jpeg",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 3.55.59 PM-800.jpeg",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 3.55.59 PM-1200.jpeg"
+    ]
+  },
+  "/coroplast\\WhatsApp Image 2026-05-23 at 4.44.02 PM.jpeg": {
+    "avif": [
+      "/coroplast\\WhatsApp Image 2026-05-23 at 4.44.02 PM-400.avif",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 4.44.02 PM-800.avif",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 4.44.02 PM-1200.avif"
+    ],
+    "webp": [
+      "/coroplast\\WhatsApp Image 2026-05-23 at 4.44.02 PM-400.webp",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 4.44.02 PM-800.webp",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 4.44.02 PM-1200.webp"
+    ],
+    "fallback": [
+      "/coroplast\\WhatsApp Image 2026-05-23 at 4.44.02 PM-400.jpeg",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 4.44.02 PM-800.jpeg",
+      "/coroplast\\WhatsApp Image 2026-05-23 at 4.44.02 PM-1200.jpeg"
+    ]
+  },
+  "/corporeos\\20221201_085109.jpg": {
+    "avif": [
+      "/corporeos\\20221201_085109-400.avif",
+      "/corporeos\\20221201_085109-800.avif",
+      "/corporeos\\20221201_085109-1200.avif"
+    ],
+    "webp": [
+      "/corporeos\\20221201_085109-400.webp",
+      "/corporeos\\20221201_085109-800.webp",
+      "/corporeos\\20221201_085109-1200.webp"
+    ],
+    "fallback": [
+      "/corporeos\\20221201_085109-400.jpg",
+      "/corporeos\\20221201_085109-800.jpg",
+      "/corporeos\\20221201_085109-1200.jpg"
+    ]
+  },
+  "/corporeos\\20250625_105949 (1).jpg": {
+    "avif": [
+      "/corporeos\\20250625_105949 (1)-400.avif",
+      "/corporeos\\20250625_105949 (1)-800.avif",
+      "/corporeos\\20250625_105949 (1)-1200.avif"
+    ],
+    "webp": [
+      "/corporeos\\20250625_105949 (1)-400.webp",
+      "/corporeos\\20250625_105949 (1)-800.webp",
+      "/corporeos\\20250625_105949 (1)-1200.webp"
+    ],
+    "fallback": [
+      "/corporeos\\20250625_105949 (1)-400.jpg",
+      "/corporeos\\20250625_105949 (1)-800.jpg",
+      "/corporeos\\20250625_105949 (1)-1200.jpg"
+    ]
+  },
+  "/corporeos\\Cadena letras super.jpg": {
+    "avif": [
+      "/corporeos\\Cadena letras super-400.avif",
+      "/corporeos\\Cadena letras super-800.avif",
+      "/corporeos\\Cadena letras super-1200.avif"
+    ],
+    "webp": [
+      "/corporeos\\Cadena letras super-400.webp",
+      "/corporeos\\Cadena letras super-800.webp",
+      "/corporeos\\Cadena letras super-1200.webp"
+    ],
+    "fallback": [
+      "/corporeos\\Cadena letras super-400.jpg",
+      "/corporeos\\Cadena letras super-800.jpg",
+      "/corporeos\\Cadena letras super-1200.jpg"
+    ]
+  },
+  "/corporeos\\WhatsApp Image 2026-05-23 at 4.55.35 PM.jpeg": {
+    "avif": [
+      "/corporeos\\WhatsApp Image 2026-05-23 at 4.55.35 PM-400.avif",
+      "/corporeos\\WhatsApp Image 2026-05-23 at 4.55.35 PM-800.avif",
+      "/corporeos\\WhatsApp Image 2026-05-23 at 4.55.35 PM-1200.avif"
+    ],
+    "webp": [
+      "/corporeos\\WhatsApp Image 2026-05-23 at 4.55.35 PM-400.webp",
+      "/corporeos\\WhatsApp Image 2026-05-23 at 4.55.35 PM-800.webp",
+      "/corporeos\\WhatsApp Image 2026-05-23 at 4.55.35 PM-1200.webp"
+    ],
+    "fallback": [
+      "/corporeos\\WhatsApp Image 2026-05-23 at 4.55.35 PM-400.jpeg",
+      "/corporeos\\WhatsApp Image 2026-05-23 at 4.55.35 PM-800.jpeg",
+      "/corporeos\\WhatsApp Image 2026-05-23 at 4.55.35 PM-1200.jpeg"
+    ]
+  },
+  "/corte-electronico\\20240606_082553.jpg": {
+    "avif": [
+      "/corte-electronico\\20240606_082553-400.avif",
+      "/corte-electronico\\20240606_082553-800.avif",
+      "/corte-electronico\\20240606_082553-1200.avif"
+    ],
+    "webp": [
+      "/corte-electronico\\20240606_082553-400.webp",
+      "/corte-electronico\\20240606_082553-800.webp",
+      "/corte-electronico\\20240606_082553-1200.webp"
+    ],
+    "fallback": [
+      "/corte-electronico\\20240606_082553-400.jpg",
+      "/corte-electronico\\20240606_082553-800.jpg",
+      "/corte-electronico\\20240606_082553-1200.jpg"
+    ]
+  },
+  "/corte-electronico\\20240618_095504.jpg": {
+    "avif": [
+      "/corte-electronico\\20240618_095504-400.avif",
+      "/corte-electronico\\20240618_095504-800.avif",
+      "/corte-electronico\\20240618_095504-1200.avif"
+    ],
+    "webp": [
+      "/corte-electronico\\20240618_095504-400.webp",
+      "/corte-electronico\\20240618_095504-800.webp",
+      "/corte-electronico\\20240618_095504-1200.webp"
+    ],
+    "fallback": [
+      "/corte-electronico\\20240618_095504-400.jpg",
+      "/corte-electronico\\20240618_095504-800.jpg",
+      "/corte-electronico\\20240618_095504-1200.jpg"
+    ]
+  },
+  "/corte-electronico\\20250708_182116.jpg": {
+    "avif": [
+      "/corte-electronico\\20250708_182116-400.avif",
+      "/corte-electronico\\20250708_182116-800.avif",
+      "/corte-electronico\\20250708_182116-1200.avif"
+    ],
+    "webp": [
+      "/corte-electronico\\20250708_182116-400.webp",
+      "/corte-electronico\\20250708_182116-800.webp",
+      "/corte-electronico\\20250708_182116-1200.webp"
+    ],
+    "fallback": [
+      "/corte-electronico\\20250708_182116-400.jpg",
+      "/corte-electronico\\20250708_182116-800.jpg",
+      "/corte-electronico\\20250708_182116-1200.jpg"
+    ]
+  },
+  "/corte-electronico\\20250806_143641.jpg": {
+    "avif": [
+      "/corte-electronico\\20250806_143641-400.avif",
+      "/corte-electronico\\20250806_143641-800.avif",
+      "/corte-electronico\\20250806_143641-1200.avif"
+    ],
+    "webp": [
+      "/corte-electronico\\20250806_143641-400.webp",
+      "/corte-electronico\\20250806_143641-800.webp",
+      "/corte-electronico\\20250806_143641-1200.webp"
+    ],
+    "fallback": [
+      "/corte-electronico\\20250806_143641-400.jpg",
+      "/corte-electronico\\20250806_143641-800.jpg",
+      "/corte-electronico\\20250806_143641-1200.jpg"
+    ]
+  },
+  "/corte-electronico\\Agencia viajes.jpg": {
+    "avif": [
+      "/corte-electronico\\Agencia viajes-400.avif",
+      "/corte-electronico\\Agencia viajes-800.avif",
+      "/corte-electronico\\Agencia viajes-1200.avif"
+    ],
+    "webp": [
+      "/corte-electronico\\Agencia viajes-400.webp",
+      "/corte-electronico\\Agencia viajes-800.webp",
+      "/corte-electronico\\Agencia viajes-1200.webp"
+    ],
+    "fallback": [
+      "/corte-electronico\\Agencia viajes-400.jpg",
+      "/corte-electronico\\Agencia viajes-800.jpg",
+      "/corte-electronico\\Agencia viajes-1200.jpg"
+    ]
+  },
+  "/corte-electronico\\Coocique.jpg": {
+    "avif": [
+      "/corte-electronico\\Coocique-400.avif",
+      "/corte-electronico\\Coocique-800.avif",
+      "/corte-electronico\\Coocique-1200.avif"
+    ],
+    "webp": [
+      "/corte-electronico\\Coocique-400.webp",
+      "/corte-electronico\\Coocique-800.webp",
+      "/corte-electronico\\Coocique-1200.webp"
+    ],
+    "fallback": [
+      "/corte-electronico\\Coocique-400.jpg",
+      "/corte-electronico\\Coocique-800.jpg",
+      "/corte-electronico\\Coocique-1200.jpg"
+    ]
+  },
+  "/corte-electronico\\Corte no estacionar.jpg": {
+    "avif": [
+      "/corte-electronico\\Corte no estacionar-400.avif",
+      "/corte-electronico\\Corte no estacionar-800.avif",
+      "/corte-electronico\\Corte no estacionar-1200.avif"
+    ],
+    "webp": [
+      "/corte-electronico\\Corte no estacionar-400.webp",
+      "/corte-electronico\\Corte no estacionar-800.webp",
+      "/corte-electronico\\Corte no estacionar-1200.webp"
+    ],
+    "fallback": [
+      "/corte-electronico\\Corte no estacionar-400.jpg",
+      "/corte-electronico\\Corte no estacionar-800.jpg",
+      "/corte-electronico\\Corte no estacionar-1200.jpg"
+    ]
+  },
+  "/corte-electronico\\Diego bransd.jpg": {
+    "avif": [
+      "/corte-electronico\\Diego bransd-400.avif",
+      "/corte-electronico\\Diego bransd-800.avif",
+      "/corte-electronico\\Diego bransd-1200.avif"
+    ],
+    "webp": [
+      "/corte-electronico\\Diego bransd-400.webp",
+      "/corte-electronico\\Diego bransd-800.webp",
+      "/corte-electronico\\Diego bransd-1200.webp"
+    ],
+    "fallback": [
+      "/corte-electronico\\Diego bransd-400.jpg",
+      "/corte-electronico\\Diego bransd-800.jpg",
+      "/corte-electronico\\Diego bransd-1200.jpg"
+    ]
+  },
+  "/corte-electronico\\Flores.jpg": {
+    "avif": [
+      "/corte-electronico\\Flores-400.avif",
+      "/corte-electronico\\Flores-800.avif",
+      "/corte-electronico\\Flores-1200.avif"
+    ],
+    "webp": [
+      "/corte-electronico\\Flores-400.webp",
+      "/corte-electronico\\Flores-800.webp",
+      "/corte-electronico\\Flores-1200.webp"
+    ],
+    "fallback": [
+      "/corte-electronico\\Flores-400.jpg",
+      "/corte-electronico\\Flores-800.jpg",
+      "/corte-electronico\\Flores-1200.jpg"
+    ]
+  },
+  "/corte-electronico\\WhatsApp Image 2020-11-20 at 11.08.11 AM.jpeg": {
+    "avif": [
+      "/corte-electronico\\WhatsApp Image 2020-11-20 at 11.08.11 AM-400.avif",
+      "/corte-electronico\\WhatsApp Image 2020-11-20 at 11.08.11 AM-800.avif",
+      "/corte-electronico\\WhatsApp Image 2020-11-20 at 11.08.11 AM-1200.avif"
+    ],
+    "webp": [
+      "/corte-electronico\\WhatsApp Image 2020-11-20 at 11.08.11 AM-400.webp",
+      "/corte-electronico\\WhatsApp Image 2020-11-20 at 11.08.11 AM-800.webp",
+      "/corte-electronico\\WhatsApp Image 2020-11-20 at 11.08.11 AM-1200.webp"
+    ],
+    "fallback": [
+      "/corte-electronico\\WhatsApp Image 2020-11-20 at 11.08.11 AM-400.jpeg",
+      "/corte-electronico\\WhatsApp Image 2020-11-20 at 11.08.11 AM-800.jpeg",
+      "/corte-electronico\\WhatsApp Image 2020-11-20 at 11.08.11 AM-1200.jpeg"
+    ]
+  },
+  "/etiquetas\\Etiquetas.jpg": {
+    "avif": [
+      "/etiquetas\\Etiquetas-400.avif",
+      "/etiquetas\\Etiquetas-800.avif",
+      "/etiquetas\\Etiquetas-1200.avif"
+    ],
+    "webp": [
+      "/etiquetas\\Etiquetas-400.webp",
+      "/etiquetas\\Etiquetas-800.webp",
+      "/etiquetas\\Etiquetas-1200.webp"
+    ],
+    "fallback": [
+      "/etiquetas\\Etiquetas-400.jpg",
+      "/etiquetas\\Etiquetas-800.jpg",
+      "/etiquetas\\Etiquetas-1200.jpg"
+    ]
+  },
+  "/instalacion\\20230721_161543.jpg": {
+    "avif": [
+      "/instalacion\\20230721_161543-400.avif",
+      "/instalacion\\20230721_161543-800.avif",
+      "/instalacion\\20230721_161543-1200.avif"
+    ],
+    "webp": [
+      "/instalacion\\20230721_161543-400.webp",
+      "/instalacion\\20230721_161543-800.webp",
+      "/instalacion\\20230721_161543-1200.webp"
+    ],
+    "fallback": [
+      "/instalacion\\20230721_161543-400.jpg",
+      "/instalacion\\20230721_161543-800.jpg",
+      "/instalacion\\20230721_161543-1200.jpg"
+    ]
+  },
+  "/instalacion\\20250119_120919.jpg": {
+    "avif": [
+      "/instalacion\\20250119_120919-400.avif",
+      "/instalacion\\20250119_120919-800.avif",
+      "/instalacion\\20250119_120919-1200.avif"
+    ],
+    "webp": [
+      "/instalacion\\20250119_120919-400.webp",
+      "/instalacion\\20250119_120919-800.webp",
+      "/instalacion\\20250119_120919-1200.webp"
+    ],
+    "fallback": [
+      "/instalacion\\20250119_120919-400.jpg",
+      "/instalacion\\20250119_120919-800.jpg",
+      "/instalacion\\20250119_120919-1200.jpg"
+    ]
+  },
+  "/instalacion\\Adhesivo steven.jpg": {
+    "avif": [
+      "/instalacion\\Adhesivo steven-400.avif",
+      "/instalacion\\Adhesivo steven-800.avif",
+      "/instalacion\\Adhesivo steven-1200.avif"
+    ],
+    "webp": [
+      "/instalacion\\Adhesivo steven-400.webp",
+      "/instalacion\\Adhesivo steven-800.webp",
+      "/instalacion\\Adhesivo steven-1200.webp"
+    ],
+    "fallback": [
+      "/instalacion\\Adhesivo steven-400.jpg",
+      "/instalacion\\Adhesivo steven-800.jpg",
+      "/instalacion\\Adhesivo steven-1200.jpg"
+    ]
+  },
+  "/instalacion\\la paz.jpg": {
+    "avif": [
+      "/instalacion\\la paz-400.avif",
+      "/instalacion\\la paz-800.avif",
+      "/instalacion\\la paz-1200.avif"
+    ],
+    "webp": [
+      "/instalacion\\la paz-400.webp",
+      "/instalacion\\la paz-800.webp",
+      "/instalacion\\la paz-1200.webp"
+    ],
+    "fallback": [
+      "/instalacion\\la paz-400.jpg",
+      "/instalacion\\la paz-800.jpg",
+      "/instalacion\\la paz-1200.jpg"
+    ]
+  },
+  "/instalacion\\Letras de corte.jpg": {
+    "avif": [
+      "/instalacion\\Letras de corte-400.avif",
+      "/instalacion\\Letras de corte-800.avif",
+      "/instalacion\\Letras de corte-1200.avif"
+    ],
+    "webp": [
+      "/instalacion\\Letras de corte-400.webp",
+      "/instalacion\\Letras de corte-800.webp",
+      "/instalacion\\Letras de corte-1200.webp"
+    ],
+    "fallback": [
+      "/instalacion\\Letras de corte-400.jpg",
+      "/instalacion\\Letras de corte-800.jpg",
+      "/instalacion\\Letras de corte-1200.jpg"
+    ]
+  },
+  "/instalacion\\micro.jpg": {
+    "avif": [
+      "/instalacion\\micro-400.avif",
+      "/instalacion\\micro-800.avif",
+      "/instalacion\\micro-1200.avif"
+    ],
+    "webp": [
+      "/instalacion\\micro-400.webp",
+      "/instalacion\\micro-800.webp",
+      "/instalacion\\micro-1200.webp"
+    ],
+    "fallback": [
+      "/instalacion\\micro-400.jpg",
+      "/instalacion\\micro-800.jpg",
+      "/instalacion\\micro-1200.jpg"
+    ]
+  },
+  "/instalacion\\WhatsApp Image 2026-05-23 at 4.05.20 PM.jpeg": {
+    "avif": [
+      "/instalacion\\WhatsApp Image 2026-05-23 at 4.05.20 PM-400.avif",
+      "/instalacion\\WhatsApp Image 2026-05-23 at 4.05.20 PM-800.avif",
+      "/instalacion\\WhatsApp Image 2026-05-23 at 4.05.20 PM-1200.avif"
+    ],
+    "webp": [
+      "/instalacion\\WhatsApp Image 2026-05-23 at 4.05.20 PM-400.webp",
+      "/instalacion\\WhatsApp Image 2026-05-23 at 4.05.20 PM-800.webp",
+      "/instalacion\\WhatsApp Image 2026-05-23 at 4.05.20 PM-1200.webp"
+    ],
+    "fallback": [
+      "/instalacion\\WhatsApp Image 2026-05-23 at 4.05.20 PM-400.jpeg",
+      "/instalacion\\WhatsApp Image 2026-05-23 at 4.05.20 PM-800.jpeg",
+      "/instalacion\\WhatsApp Image 2026-05-23 at 4.05.20 PM-1200.jpeg"
+    ]
+  },
+  "/letras-planas-laser\\20230822_142350.jpg": {
+    "avif": [
+      "/letras-planas-laser\\20230822_142350-400.avif",
+      "/letras-planas-laser\\20230822_142350-800.avif",
+      "/letras-planas-laser\\20230822_142350-1200.avif"
+    ],
+    "webp": [
+      "/letras-planas-laser\\20230822_142350-400.webp",
+      "/letras-planas-laser\\20230822_142350-800.webp",
+      "/letras-planas-laser\\20230822_142350-1200.webp"
+    ],
+    "fallback": [
+      "/letras-planas-laser\\20230822_142350-400.jpg",
+      "/letras-planas-laser\\20230822_142350-800.jpg",
+      "/letras-planas-laser\\20230822_142350-1200.jpg"
+    ]
+  },
+  "/letras-planas-laser\\20240817_113117.jpg": {
+    "avif": [
+      "/letras-planas-laser\\20240817_113117-400.avif",
+      "/letras-planas-laser\\20240817_113117-800.avif",
+      "/letras-planas-laser\\20240817_113117-1200.avif"
+    ],
+    "webp": [
+      "/letras-planas-laser\\20240817_113117-400.webp",
+      "/letras-planas-laser\\20240817_113117-800.webp",
+      "/letras-planas-laser\\20240817_113117-1200.webp"
+    ],
+    "fallback": [
+      "/letras-planas-laser\\20240817_113117-400.jpg",
+      "/letras-planas-laser\\20240817_113117-800.jpg",
+      "/letras-planas-laser\\20240817_113117-1200.jpg"
+    ]
+  },
+  "/letras-planas-laser\\20240817_113327.jpg": {
+    "avif": [
+      "/letras-planas-laser\\20240817_113327-400.avif",
+      "/letras-planas-laser\\20240817_113327-800.avif",
+      "/letras-planas-laser\\20240817_113327-1200.avif"
+    ],
+    "webp": [
+      "/letras-planas-laser\\20240817_113327-400.webp",
+      "/letras-planas-laser\\20240817_113327-800.webp",
+      "/letras-planas-laser\\20240817_113327-1200.webp"
+    ],
+    "fallback": [
+      "/letras-planas-laser\\20240817_113327-400.jpg",
+      "/letras-planas-laser\\20240817_113327-800.jpg",
+      "/letras-planas-laser\\20240817_113327-1200.jpg"
+    ]
+  },
+  "/letras-planas-laser\\20250603_100531.jpg": {
+    "avif": [
+      "/letras-planas-laser\\20250603_100531-400.avif",
+      "/letras-planas-laser\\20250603_100531-800.avif",
+      "/letras-planas-laser\\20250603_100531-1200.avif"
+    ],
+    "webp": [
+      "/letras-planas-laser\\20250603_100531-400.webp",
+      "/letras-planas-laser\\20250603_100531-800.webp",
+      "/letras-planas-laser\\20250603_100531-1200.webp"
+    ],
+    "fallback": [
+      "/letras-planas-laser\\20250603_100531-400.jpg",
+      "/letras-planas-laser\\20250603_100531-800.jpg",
+      "/letras-planas-laser\\20250603_100531-1200.jpg"
+    ]
+  },
+  "/letras-planas-laser\\20250603_100538.jpg": {
+    "avif": [
+      "/letras-planas-laser\\20250603_100538-400.avif",
+      "/letras-planas-laser\\20250603_100538-800.avif",
+      "/letras-planas-laser\\20250603_100538-1200.avif"
+    ],
+    "webp": [
+      "/letras-planas-laser\\20250603_100538-400.webp",
+      "/letras-planas-laser\\20250603_100538-800.webp",
+      "/letras-planas-laser\\20250603_100538-1200.webp"
+    ],
+    "fallback": [
+      "/letras-planas-laser\\20250603_100538-400.jpg",
+      "/letras-planas-laser\\20250603_100538-800.jpg",
+      "/letras-planas-laser\\20250603_100538-1200.jpg"
+    ]
+  },
+  "/letras-planas-laser\\20250613_085525.jpg": {
+    "avif": [
+      "/letras-planas-laser\\20250613_085525-400.avif",
+      "/letras-planas-laser\\20250613_085525-800.avif",
+      "/letras-planas-laser\\20250613_085525-1200.avif"
+    ],
+    "webp": [
+      "/letras-planas-laser\\20250613_085525-400.webp",
+      "/letras-planas-laser\\20250613_085525-800.webp",
+      "/letras-planas-laser\\20250613_085525-1200.webp"
+    ],
+    "fallback": [
+      "/letras-planas-laser\\20250613_085525-400.jpg",
+      "/letras-planas-laser\\20250613_085525-800.jpg",
+      "/letras-planas-laser\\20250613_085525-1200.jpg"
+    ]
+  },
+  "/letras-planas-laser\\nutriale.jpg": {
+    "avif": [
+      "/letras-planas-laser\\nutriale-400.avif",
+      "/letras-planas-laser\\nutriale-800.avif",
+      "/letras-planas-laser\\nutriale-1200.avif"
+    ],
+    "webp": [
+      "/letras-planas-laser\\nutriale-400.webp",
+      "/letras-planas-laser\\nutriale-800.webp",
+      "/letras-planas-laser\\nutriale-1200.webp"
+    ],
+    "fallback": [
+      "/letras-planas-laser\\nutriale-400.jpg",
+      "/letras-planas-laser\\nutriale-800.jpg",
+      "/letras-planas-laser\\nutriale-1200.jpg"
+    ]
+  },
+  "/letras-planas-laser\\set.jpg": {
+    "avif": [
+      "/letras-planas-laser\\set-400.avif",
+      "/letras-planas-laser\\set-800.avif",
+      "/letras-planas-laser\\set-1200.avif"
+    ],
+    "webp": [
+      "/letras-planas-laser\\set-400.webp",
+      "/letras-planas-laser\\set-800.webp",
+      "/letras-planas-laser\\set-1200.webp"
+    ],
+    "fallback": [
+      "/letras-planas-laser\\set-400.jpg",
+      "/letras-planas-laser\\set-800.jpg",
+      "/letras-planas-laser\\set-1200.jpg"
+    ]
+  },
+  "/letras-planas-laser\\WhatsApp Image 2026-05-21 at 9.05.19 AM.jpeg": {
+    "avif": [
+      "/letras-planas-laser\\WhatsApp Image 2026-05-21 at 9.05.19 AM-400.avif",
+      "/letras-planas-laser\\WhatsApp Image 2026-05-21 at 9.05.19 AM-800.avif",
+      "/letras-planas-laser\\WhatsApp Image 2026-05-21 at 9.05.19 AM-1200.avif"
+    ],
+    "webp": [
+      "/letras-planas-laser\\WhatsApp Image 2026-05-21 at 9.05.19 AM-400.webp",
+      "/letras-planas-laser\\WhatsApp Image 2026-05-21 at 9.05.19 AM-800.webp",
+      "/letras-planas-laser\\WhatsApp Image 2026-05-21 at 9.05.19 AM-1200.webp"
+    ],
+    "fallback": [
+      "/letras-planas-laser\\WhatsApp Image 2026-05-21 at 9.05.19 AM-400.jpeg",
+      "/letras-planas-laser\\WhatsApp Image 2026-05-21 at 9.05.19 AM-800.jpeg",
+      "/letras-planas-laser\\WhatsApp Image 2026-05-21 at 9.05.19 AM-1200.jpeg"
+    ]
+  },
+  "/logo.png": {
+    "avif": [
+      "/logo-400.avif",
+      "/logo-800.avif",
+      "/logo-1200.avif"
+    ],
+    "webp": [
+      "/logo-400.webp",
+      "/logo-800.webp",
+      "/logo-1200.webp"
+    ],
+    "fallback": [
+      "/logo-400.png",
+      "/logo-800.png",
+      "/logo-1200.png"
+    ]
+  },
+  "/lonas\\20240227_151153.jpg": {
+    "avif": [
+      "/lonas\\20240227_151153-400.avif",
+      "/lonas\\20240227_151153-800.avif",
+      "/lonas\\20240227_151153-1200.avif"
+    ],
+    "webp": [
+      "/lonas\\20240227_151153-400.webp",
+      "/lonas\\20240227_151153-800.webp",
+      "/lonas\\20240227_151153-1200.webp"
+    ],
+    "fallback": [
+      "/lonas\\20240227_151153-400.jpg",
+      "/lonas\\20240227_151153-800.jpg",
+      "/lonas\\20240227_151153-1200.jpg"
+    ]
+  },
+  "/lonas\\20240913_154640 (1).jpg": {
+    "avif": [
+      "/lonas\\20240913_154640 (1)-400.avif",
+      "/lonas\\20240913_154640 (1)-800.avif",
+      "/lonas\\20240913_154640 (1)-1200.avif"
+    ],
+    "webp": [
+      "/lonas\\20240913_154640 (1)-400.webp",
+      "/lonas\\20240913_154640 (1)-800.webp",
+      "/lonas\\20240913_154640 (1)-1200.webp"
+    ],
+    "fallback": [
+      "/lonas\\20240913_154640 (1)-400.jpg",
+      "/lonas\\20240913_154640 (1)-800.jpg",
+      "/lonas\\20240913_154640 (1)-1200.jpg"
+    ]
+  },
+  "/lonas\\lona concretos.jpg": {
+    "avif": [
+      "/lonas\\lona concretos-400.avif",
+      "/lonas\\lona concretos-800.avif",
+      "/lonas\\lona concretos-1200.avif"
+    ],
+    "webp": [
+      "/lonas\\lona concretos-400.webp",
+      "/lonas\\lona concretos-800.webp",
+      "/lonas\\lona concretos-1200.webp"
+    ],
+    "fallback": [
+      "/lonas\\lona concretos-400.jpg",
+      "/lonas\\lona concretos-800.jpg",
+      "/lonas\\lona concretos-1200.jpg"
+    ]
+  },
+  "/lonas\\WhatsApp Image 2026-05-22 at 11.19.24 AM.jpeg": {
+    "avif": [
+      "/lonas\\WhatsApp Image 2026-05-22 at 11.19.24 AM-400.avif",
+      "/lonas\\WhatsApp Image 2026-05-22 at 11.19.24 AM-800.avif",
+      "/lonas\\WhatsApp Image 2026-05-22 at 11.19.24 AM-1200.avif"
+    ],
+    "webp": [
+      "/lonas\\WhatsApp Image 2026-05-22 at 11.19.24 AM-400.webp",
+      "/lonas\\WhatsApp Image 2026-05-22 at 11.19.24 AM-800.webp",
+      "/lonas\\WhatsApp Image 2026-05-22 at 11.19.24 AM-1200.webp"
+    ],
+    "fallback": [
+      "/lonas\\WhatsApp Image 2026-05-22 at 11.19.24 AM-400.jpeg",
+      "/lonas\\WhatsApp Image 2026-05-22 at 11.19.24 AM-800.jpeg",
+      "/lonas\\WhatsApp Image 2026-05-22 at 11.19.24 AM-1200.jpeg"
+    ]
+  },
+  "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM (1).jpeg": {
+    "avif": [
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM (1)-400.avif",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM (1)-800.avif",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM (1)-1200.avif"
+    ],
+    "webp": [
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM (1)-400.webp",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM (1)-800.webp",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM (1)-1200.webp"
+    ],
+    "fallback": [
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM (1)-400.jpeg",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM (1)-800.jpeg",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM (1)-1200.jpeg"
+    ]
+  },
+  "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM.jpeg": {
+    "avif": [
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM-400.avif",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM-800.avif",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM-1200.avif"
+    ],
+    "webp": [
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM-400.webp",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM-800.webp",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM-1200.webp"
+    ],
+    "fallback": [
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM-400.jpeg",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM-800.jpeg",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.01.10 PM-1200.jpeg"
+    ]
+  },
+  "/lonas\\WhatsApp Image 2026-05-23 at 4.10.06 PM.jpeg": {
+    "avif": [
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.10.06 PM-400.avif",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.10.06 PM-800.avif",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.10.06 PM-1200.avif"
+    ],
+    "webp": [
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.10.06 PM-400.webp",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.10.06 PM-800.webp",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.10.06 PM-1200.webp"
+    ],
+    "fallback": [
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.10.06 PM-400.jpeg",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.10.06 PM-800.jpeg",
+      "/lonas\\WhatsApp Image 2026-05-23 at 4.10.06 PM-1200.jpeg"
+    ]
+  },
+  "/microperforados\\20230503_084441.jpg": {
+    "avif": [
+      "/microperforados\\20230503_084441-400.avif",
+      "/microperforados\\20230503_084441-800.avif",
+      "/microperforados\\20230503_084441-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\20230503_084441-400.webp",
+      "/microperforados\\20230503_084441-800.webp",
+      "/microperforados\\20230503_084441-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\20230503_084441-400.jpg",
+      "/microperforados\\20230503_084441-800.jpg",
+      "/microperforados\\20230503_084441-1200.jpg"
+    ]
+  },
+  "/microperforados\\20230524_121324.jpg": {
+    "avif": [
+      "/microperforados\\20230524_121324-400.avif",
+      "/microperforados\\20230524_121324-800.avif",
+      "/microperforados\\20230524_121324-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\20230524_121324-400.webp",
+      "/microperforados\\20230524_121324-800.webp",
+      "/microperforados\\20230524_121324-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\20230524_121324-400.jpg",
+      "/microperforados\\20230524_121324-800.jpg",
+      "/microperforados\\20230524_121324-1200.jpg"
+    ]
+  },
+  "/microperforados\\20230801_095915.jpg": {
+    "avif": [
+      "/microperforados\\20230801_095915-400.avif",
+      "/microperforados\\20230801_095915-800.avif",
+      "/microperforados\\20230801_095915-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\20230801_095915-400.webp",
+      "/microperforados\\20230801_095915-800.webp",
+      "/microperforados\\20230801_095915-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\20230801_095915-400.jpg",
+      "/microperforados\\20230801_095915-800.jpg",
+      "/microperforados\\20230801_095915-1200.jpg"
+    ]
+  },
+  "/microperforados\\20231010_101644.jpg": {
+    "avif": [
+      "/microperforados\\20231010_101644-400.avif",
+      "/microperforados\\20231010_101644-800.avif",
+      "/microperforados\\20231010_101644-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\20231010_101644-400.webp",
+      "/microperforados\\20231010_101644-800.webp",
+      "/microperforados\\20231010_101644-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\20231010_101644-400.jpg",
+      "/microperforados\\20231010_101644-800.jpg",
+      "/microperforados\\20231010_101644-1200.jpg"
+    ]
+  },
+  "/microperforados\\20231113_160411.jpg": {
+    "avif": [
+      "/microperforados\\20231113_160411-400.avif",
+      "/microperforados\\20231113_160411-800.avif",
+      "/microperforados\\20231113_160411-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\20231113_160411-400.webp",
+      "/microperforados\\20231113_160411-800.webp",
+      "/microperforados\\20231113_160411-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\20231113_160411-400.jpg",
+      "/microperforados\\20231113_160411-800.jpg",
+      "/microperforados\\20231113_160411-1200.jpg"
+    ]
+  },
+  "/microperforados\\20240227_141319.jpg": {
+    "avif": [
+      "/microperforados\\20240227_141319-400.avif",
+      "/microperforados\\20240227_141319-800.avif",
+      "/microperforados\\20240227_141319-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\20240227_141319-400.webp",
+      "/microperforados\\20240227_141319-800.webp",
+      "/microperforados\\20240227_141319-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\20240227_141319-400.jpg",
+      "/microperforados\\20240227_141319-800.jpg",
+      "/microperforados\\20240227_141319-1200.jpg"
+    ]
+  },
+  "/microperforados\\20250709_165815.jpg": {
+    "avif": [
+      "/microperforados\\20250709_165815-400.avif",
+      "/microperforados\\20250709_165815-800.avif",
+      "/microperforados\\20250709_165815-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\20250709_165815-400.webp",
+      "/microperforados\\20250709_165815-800.webp",
+      "/microperforados\\20250709_165815-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\20250709_165815-400.jpg",
+      "/microperforados\\20250709_165815-800.jpg",
+      "/microperforados\\20250709_165815-1200.jpg"
+    ]
+  },
+  "/microperforados\\20250806_123344.jpg": {
+    "avif": [
+      "/microperforados\\20250806_123344-400.avif",
+      "/microperforados\\20250806_123344-800.avif",
+      "/microperforados\\20250806_123344-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\20250806_123344-400.webp",
+      "/microperforados\\20250806_123344-800.webp",
+      "/microperforados\\20250806_123344-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\20250806_123344-400.jpg",
+      "/microperforados\\20250806_123344-800.jpg",
+      "/microperforados\\20250806_123344-1200.jpg"
+    ]
+  },
+  "/microperforados\\coca.jpg": {
+    "avif": [
+      "/microperforados\\coca-400.avif",
+      "/microperforados\\coca-800.avif",
+      "/microperforados\\coca-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\coca-400.webp",
+      "/microperforados\\coca-800.webp",
+      "/microperforados\\coca-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\coca-400.jpg",
+      "/microperforados\\coca-800.jpg",
+      "/microperforados\\coca-1200.jpg"
+    ]
+  },
+  "/microperforados\\gallo.jpg": {
+    "avif": [
+      "/microperforados\\gallo-400.avif",
+      "/microperforados\\gallo-800.avif",
+      "/microperforados\\gallo-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\gallo-400.webp",
+      "/microperforados\\gallo-800.webp",
+      "/microperforados\\gallo-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\gallo-400.jpg",
+      "/microperforados\\gallo-800.jpg",
+      "/microperforados\\gallo-1200.jpg"
+    ]
+  },
+  "/microperforados\\La paz micro.jpg": {
+    "avif": [
+      "/microperforados\\La paz micro-400.avif",
+      "/microperforados\\La paz micro-800.avif",
+      "/microperforados\\La paz micro-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\La paz micro-400.webp",
+      "/microperforados\\La paz micro-800.webp",
+      "/microperforados\\La paz micro-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\La paz micro-400.jpg",
+      "/microperforados\\La paz micro-800.jpg",
+      "/microperforados\\La paz micro-1200.jpg"
+    ]
+  },
+  "/microperforados\\lcans.jpg": {
+    "avif": [
+      "/microperforados\\lcans-400.avif",
+      "/microperforados\\lcans-800.avif",
+      "/microperforados\\lcans-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\lcans-400.webp",
+      "/microperforados\\lcans-800.webp",
+      "/microperforados\\lcans-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\lcans-400.jpg",
+      "/microperforados\\lcans-800.jpg",
+      "/microperforados\\lcans-1200.jpg"
+    ]
+  },
+  "/microperforados\\Micro Coca.jpg": {
+    "avif": [
+      "/microperforados\\Micro Coca-400.avif",
+      "/microperforados\\Micro Coca-800.avif",
+      "/microperforados\\Micro Coca-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\Micro Coca-400.webp",
+      "/microperforados\\Micro Coca-800.webp",
+      "/microperforados\\Micro Coca-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\Micro Coca-400.jpg",
+      "/microperforados\\Micro Coca-800.jpg",
+      "/microperforados\\Micro Coca-1200.jpg"
+    ]
+  },
+  "/microperforados\\Micro sucre.jpg": {
+    "avif": [
+      "/microperforados\\Micro sucre-400.avif",
+      "/microperforados\\Micro sucre-800.avif",
+      "/microperforados\\Micro sucre-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\Micro sucre-400.webp",
+      "/microperforados\\Micro sucre-800.webp",
+      "/microperforados\\Micro sucre-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\Micro sucre-400.jpg",
+      "/microperforados\\Micro sucre-800.jpg",
+      "/microperforados\\Micro sucre-1200.jpg"
+    ]
+  },
+  "/microperforados\\WhatsApp Image 2026-05-21 at 9.11.22 AM.jpeg": {
+    "avif": [
+      "/microperforados\\WhatsApp Image 2026-05-21 at 9.11.22 AM-400.avif",
+      "/microperforados\\WhatsApp Image 2026-05-21 at 9.11.22 AM-800.avif",
+      "/microperforados\\WhatsApp Image 2026-05-21 at 9.11.22 AM-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\WhatsApp Image 2026-05-21 at 9.11.22 AM-400.webp",
+      "/microperforados\\WhatsApp Image 2026-05-21 at 9.11.22 AM-800.webp",
+      "/microperforados\\WhatsApp Image 2026-05-21 at 9.11.22 AM-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\WhatsApp Image 2026-05-21 at 9.11.22 AM-400.jpeg",
+      "/microperforados\\WhatsApp Image 2026-05-21 at 9.11.22 AM-800.jpeg",
+      "/microperforados\\WhatsApp Image 2026-05-21 at 9.11.22 AM-1200.jpeg"
+    ]
+  },
+  "/microperforados\\Zapato americano.jpg": {
+    "avif": [
+      "/microperforados\\Zapato americano-400.avif",
+      "/microperforados\\Zapato americano-800.avif",
+      "/microperforados\\Zapato americano-1200.avif"
+    ],
+    "webp": [
+      "/microperforados\\Zapato americano-400.webp",
+      "/microperforados\\Zapato americano-800.webp",
+      "/microperforados\\Zapato americano-1200.webp"
+    ],
+    "fallback": [
+      "/microperforados\\Zapato americano-400.jpg",
+      "/microperforados\\Zapato americano-800.jpg",
+      "/microperforados\\Zapato americano-1200.jpg"
+    ]
+  },
+  "/placas-acrilicas\\20220517_161506.jpg": {
+    "avif": [
+      "/placas-acrilicas\\20220517_161506-400.avif",
+      "/placas-acrilicas\\20220517_161506-800.avif",
+      "/placas-acrilicas\\20220517_161506-1200.avif"
+    ],
+    "webp": [
+      "/placas-acrilicas\\20220517_161506-400.webp",
+      "/placas-acrilicas\\20220517_161506-800.webp",
+      "/placas-acrilicas\\20220517_161506-1200.webp"
+    ],
+    "fallback": [
+      "/placas-acrilicas\\20220517_161506-400.jpg",
+      "/placas-acrilicas\\20220517_161506-800.jpg",
+      "/placas-acrilicas\\20220517_161506-1200.jpg"
+    ]
+  },
+  "/placas-acrilicas\\20221116_190301.jpg": {
+    "avif": [
+      "/placas-acrilicas\\20221116_190301-400.avif",
+      "/placas-acrilicas\\20221116_190301-800.avif",
+      "/placas-acrilicas\\20221116_190301-1200.avif"
+    ],
+    "webp": [
+      "/placas-acrilicas\\20221116_190301-400.webp",
+      "/placas-acrilicas\\20221116_190301-800.webp",
+      "/placas-acrilicas\\20221116_190301-1200.webp"
+    ],
+    "fallback": [
+      "/placas-acrilicas\\20221116_190301-400.jpg",
+      "/placas-acrilicas\\20221116_190301-800.jpg",
+      "/placas-acrilicas\\20221116_190301-1200.jpg"
+    ]
+  },
+  "/placas-acrilicas\\20221201_085042.jpg": {
+    "avif": [
+      "/placas-acrilicas\\20221201_085042-400.avif",
+      "/placas-acrilicas\\20221201_085042-800.avif",
+      "/placas-acrilicas\\20221201_085042-1200.avif"
+    ],
+    "webp": [
+      "/placas-acrilicas\\20221201_085042-400.webp",
+      "/placas-acrilicas\\20221201_085042-800.webp",
+      "/placas-acrilicas\\20221201_085042-1200.webp"
+    ],
+    "fallback": [
+      "/placas-acrilicas\\20221201_085042-400.jpg",
+      "/placas-acrilicas\\20221201_085042-800.jpg",
+      "/placas-acrilicas\\20221201_085042-1200.jpg"
+    ]
+  },
+  "/placas-acrilicas\\20230209_140041.jpg": {
+    "avif": [
+      "/placas-acrilicas\\20230209_140041-400.avif",
+      "/placas-acrilicas\\20230209_140041-800.avif",
+      "/placas-acrilicas\\20230209_140041-1200.avif"
+    ],
+    "webp": [
+      "/placas-acrilicas\\20230209_140041-400.webp",
+      "/placas-acrilicas\\20230209_140041-800.webp",
+      "/placas-acrilicas\\20230209_140041-1200.webp"
+    ],
+    "fallback": [
+      "/placas-acrilicas\\20230209_140041-400.jpg",
+      "/placas-acrilicas\\20230209_140041-800.jpg",
+      "/placas-acrilicas\\20230209_140041-1200.jpg"
+    ]
+  },
+  "/placas-acrilicas\\20230803_170819.jpg": {
+    "avif": [
+      "/placas-acrilicas\\20230803_170819-400.avif",
+      "/placas-acrilicas\\20230803_170819-800.avif",
+      "/placas-acrilicas\\20230803_170819-1200.avif"
+    ],
+    "webp": [
+      "/placas-acrilicas\\20230803_170819-400.webp",
+      "/placas-acrilicas\\20230803_170819-800.webp",
+      "/placas-acrilicas\\20230803_170819-1200.webp"
+    ],
+    "fallback": [
+      "/placas-acrilicas\\20230803_170819-400.jpg",
+      "/placas-acrilicas\\20230803_170819-800.jpg",
+      "/placas-acrilicas\\20230803_170819-1200.jpg"
+    ]
+  },
+  "/placas-acrilicas\\20241111_064915.jpg": {
+    "avif": [
+      "/placas-acrilicas\\20241111_064915-400.avif",
+      "/placas-acrilicas\\20241111_064915-800.avif",
+      "/placas-acrilicas\\20241111_064915-1200.avif"
+    ],
+    "webp": [
+      "/placas-acrilicas\\20241111_064915-400.webp",
+      "/placas-acrilicas\\20241111_064915-800.webp",
+      "/placas-acrilicas\\20241111_064915-1200.webp"
+    ],
+    "fallback": [
+      "/placas-acrilicas\\20241111_064915-400.jpg",
+      "/placas-acrilicas\\20241111_064915-800.jpg",
+      "/placas-acrilicas\\20241111_064915-1200.jpg"
+    ]
+  },
+  "/placas-acrilicas\\6.jpg": {
+    "avif": [
+      "/placas-acrilicas\\6-400.avif",
+      "/placas-acrilicas\\6-800.avif",
+      "/placas-acrilicas\\6-1200.avif"
+    ],
+    "webp": [
+      "/placas-acrilicas\\6-400.webp",
+      "/placas-acrilicas\\6-800.webp",
+      "/placas-acrilicas\\6-1200.webp"
+    ],
+    "fallback": [
+      "/placas-acrilicas\\6-400.jpg",
+      "/placas-acrilicas\\6-800.jpg",
+      "/placas-acrilicas\\6-1200.jpg"
+    ]
+  },
+  "/placas-acrilicas\\WhatsApp Image 2026-05-23 at 4.03.46 PM.jpeg": {
+    "avif": [
+      "/placas-acrilicas\\WhatsApp Image 2026-05-23 at 4.03.46 PM-400.avif",
+      "/placas-acrilicas\\WhatsApp Image 2026-05-23 at 4.03.46 PM-800.avif",
+      "/placas-acrilicas\\WhatsApp Image 2026-05-23 at 4.03.46 PM-1200.avif"
+    ],
+    "webp": [
+      "/placas-acrilicas\\WhatsApp Image 2026-05-23 at 4.03.46 PM-400.webp",
+      "/placas-acrilicas\\WhatsApp Image 2026-05-23 at 4.03.46 PM-800.webp",
+      "/placas-acrilicas\\WhatsApp Image 2026-05-23 at 4.03.46 PM-1200.webp"
+    ],
+    "fallback": [
+      "/placas-acrilicas\\WhatsApp Image 2026-05-23 at 4.03.46 PM-400.jpeg",
+      "/placas-acrilicas\\WhatsApp Image 2026-05-23 at 4.03.46 PM-800.jpeg",
+      "/placas-acrilicas\\WhatsApp Image 2026-05-23 at 4.03.46 PM-1200.jpeg"
+    ]
+  },
+  "/placas-pvc\\20201014_120306.jpg": {
+    "avif": [
+      "/placas-pvc\\20201014_120306-400.avif",
+      "/placas-pvc\\20201014_120306-800.avif",
+      "/placas-pvc\\20201014_120306-1200.avif"
+    ],
+    "webp": [
+      "/placas-pvc\\20201014_120306-400.webp",
+      "/placas-pvc\\20201014_120306-800.webp",
+      "/placas-pvc\\20201014_120306-1200.webp"
+    ],
+    "fallback": [
+      "/placas-pvc\\20201014_120306-400.jpg",
+      "/placas-pvc\\20201014_120306-800.jpg",
+      "/placas-pvc\\20201014_120306-1200.jpg"
+    ]
+  },
+  "/placas-pvc\\20241113_175944.jpg": {
+    "avif": [
+      "/placas-pvc\\20241113_175944-400.avif",
+      "/placas-pvc\\20241113_175944-800.avif",
+      "/placas-pvc\\20241113_175944-1200.avif"
+    ],
+    "webp": [
+      "/placas-pvc\\20241113_175944-400.webp",
+      "/placas-pvc\\20241113_175944-800.webp",
+      "/placas-pvc\\20241113_175944-1200.webp"
+    ],
+    "fallback": [
+      "/placas-pvc\\20241113_175944-400.jpg",
+      "/placas-pvc\\20241113_175944-800.jpg",
+      "/placas-pvc\\20241113_175944-1200.jpg"
+    ]
+  },
+  "/placas-pvc\\20260206_135618.jpg": {
+    "avif": [
+      "/placas-pvc\\20260206_135618-400.avif",
+      "/placas-pvc\\20260206_135618-800.avif",
+      "/placas-pvc\\20260206_135618-1200.avif"
+    ],
+    "webp": [
+      "/placas-pvc\\20260206_135618-400.webp",
+      "/placas-pvc\\20260206_135618-800.webp",
+      "/placas-pvc\\20260206_135618-1200.webp"
+    ],
+    "fallback": [
+      "/placas-pvc\\20260206_135618-400.jpg",
+      "/placas-pvc\\20260206_135618-800.jpg",
+      "/placas-pvc\\20260206_135618-1200.jpg"
+    ]
+  },
+  "/placas-pvc\\placas carne.jpg": {
+    "avif": [
+      "/placas-pvc\\placas carne-400.avif",
+      "/placas-pvc\\placas carne-800.avif",
+      "/placas-pvc\\placas carne-1200.avif"
+    ],
+    "webp": [
+      "/placas-pvc\\placas carne-400.webp",
+      "/placas-pvc\\placas carne-800.webp",
+      "/placas-pvc\\placas carne-1200.webp"
+    ],
+    "fallback": [
+      "/placas-pvc\\placas carne-400.jpg",
+      "/placas-pvc\\placas carne-800.jpg",
+      "/placas-pvc\\placas carne-1200.jpg"
+    ]
+  },
+  "/placas-pvc\\PVC angus.jpg": {
+    "avif": [
+      "/placas-pvc\\PVC angus-400.avif",
+      "/placas-pvc\\PVC angus-800.avif",
+      "/placas-pvc\\PVC angus-1200.avif"
+    ],
+    "webp": [
+      "/placas-pvc\\PVC angus-400.webp",
+      "/placas-pvc\\PVC angus-800.webp",
+      "/placas-pvc\\PVC angus-1200.webp"
+    ],
+    "fallback": [
+      "/placas-pvc\\PVC angus-400.jpg",
+      "/placas-pvc\\PVC angus-800.jpg",
+      "/placas-pvc\\PVC angus-1200.jpg"
+    ]
+  },
+  "/placas-pvc\\Super.jpg": {
+    "avif": [
+      "/placas-pvc\\Super-400.avif",
+      "/placas-pvc\\Super-800.avif",
+      "/placas-pvc\\Super-1200.avif"
+    ],
+    "webp": [
+      "/placas-pvc\\Super-400.webp",
+      "/placas-pvc\\Super-800.webp",
+      "/placas-pvc\\Super-1200.webp"
+    ],
+    "fallback": [
+      "/placas-pvc\\Super-400.jpg",
+      "/placas-pvc\\Super-800.jpg",
+      "/placas-pvc\\Super-1200.jpg"
+    ]
+  },
+  "/placas-pvc\\WhatsApp Image 2026-05-21 at 9.06.53 AM.jpeg": {
+    "avif": [
+      "/placas-pvc\\WhatsApp Image 2026-05-21 at 9.06.53 AM-400.avif",
+      "/placas-pvc\\WhatsApp Image 2026-05-21 at 9.06.53 AM-800.avif",
+      "/placas-pvc\\WhatsApp Image 2026-05-21 at 9.06.53 AM-1200.avif"
+    ],
+    "webp": [
+      "/placas-pvc\\WhatsApp Image 2026-05-21 at 9.06.53 AM-400.webp",
+      "/placas-pvc\\WhatsApp Image 2026-05-21 at 9.06.53 AM-800.webp",
+      "/placas-pvc\\WhatsApp Image 2026-05-21 at 9.06.53 AM-1200.webp"
+    ],
+    "fallback": [
+      "/placas-pvc\\WhatsApp Image 2026-05-21 at 9.06.53 AM-400.jpeg",
+      "/placas-pvc\\WhatsApp Image 2026-05-21 at 9.06.53 AM-800.jpeg",
+      "/placas-pvc\\WhatsApp Image 2026-05-21 at 9.06.53 AM-1200.jpeg"
+    ]
+  },
+  "/placas-pvc\\WhatsApp Image 2026-05-23 at 3.57.48 PM.jpeg": {
+    "avif": [
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 3.57.48 PM-400.avif",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 3.57.48 PM-800.avif",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 3.57.48 PM-1200.avif"
+    ],
+    "webp": [
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 3.57.48 PM-400.webp",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 3.57.48 PM-800.webp",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 3.57.48 PM-1200.webp"
+    ],
+    "fallback": [
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 3.57.48 PM-400.jpeg",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 3.57.48 PM-800.jpeg",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 3.57.48 PM-1200.jpeg"
+    ]
+  },
+  "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.02.47 PM.jpeg": {
+    "avif": [
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.02.47 PM-400.avif",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.02.47 PM-800.avif",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.02.47 PM-1200.avif"
+    ],
+    "webp": [
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.02.47 PM-400.webp",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.02.47 PM-800.webp",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.02.47 PM-1200.webp"
+    ],
+    "fallback": [
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.02.47 PM-400.jpeg",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.02.47 PM-800.jpeg",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.02.47 PM-1200.jpeg"
+    ]
+  },
+  "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.38.16 PM.jpeg": {
+    "avif": [
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.38.16 PM-400.avif",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.38.16 PM-800.avif",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.38.16 PM-1200.avif"
+    ],
+    "webp": [
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.38.16 PM-400.webp",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.38.16 PM-800.webp",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.38.16 PM-1200.webp"
+    ],
+    "fallback": [
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.38.16 PM-400.jpeg",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.38.16 PM-800.jpeg",
+      "/placas-pvc\\WhatsApp Image 2026-05-23 at 4.38.16 PM-1200.jpeg"
+    ]
+  },
+  "/rotulacion-vehicular\\20231009_162610.jpg": {
+    "avif": [
+      "/rotulacion-vehicular\\20231009_162610-400.avif",
+      "/rotulacion-vehicular\\20231009_162610-800.avif",
+      "/rotulacion-vehicular\\20231009_162610-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\20231009_162610-400.webp",
+      "/rotulacion-vehicular\\20231009_162610-800.webp",
+      "/rotulacion-vehicular\\20231009_162610-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\20231009_162610-400.jpg",
+      "/rotulacion-vehicular\\20231009_162610-800.jpg",
+      "/rotulacion-vehicular\\20231009_162610-1200.jpg"
+    ]
+  },
+  "/rotulacion-vehicular\\20240220_081830.jpg": {
+    "avif": [
+      "/rotulacion-vehicular\\20240220_081830-400.avif",
+      "/rotulacion-vehicular\\20240220_081830-800.avif",
+      "/rotulacion-vehicular\\20240220_081830-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\20240220_081830-400.webp",
+      "/rotulacion-vehicular\\20240220_081830-800.webp",
+      "/rotulacion-vehicular\\20240220_081830-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\20240220_081830-400.jpg",
+      "/rotulacion-vehicular\\20240220_081830-800.jpg",
+      "/rotulacion-vehicular\\20240220_081830-1200.jpg"
+    ]
+  },
+  "/rotulacion-vehicular\\20240220_081903.jpg": {
+    "avif": [
+      "/rotulacion-vehicular\\20240220_081903-400.avif",
+      "/rotulacion-vehicular\\20240220_081903-800.avif",
+      "/rotulacion-vehicular\\20240220_081903-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\20240220_081903-400.webp",
+      "/rotulacion-vehicular\\20240220_081903-800.webp",
+      "/rotulacion-vehicular\\20240220_081903-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\20240220_081903-400.jpg",
+      "/rotulacion-vehicular\\20240220_081903-800.jpg",
+      "/rotulacion-vehicular\\20240220_081903-1200.jpg"
+    ]
+  },
+  "/rotulacion-vehicular\\20241004_122018.jpg": {
+    "avif": [
+      "/rotulacion-vehicular\\20241004_122018-400.avif",
+      "/rotulacion-vehicular\\20241004_122018-800.avif",
+      "/rotulacion-vehicular\\20241004_122018-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\20241004_122018-400.webp",
+      "/rotulacion-vehicular\\20241004_122018-800.webp",
+      "/rotulacion-vehicular\\20241004_122018-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\20241004_122018-400.jpg",
+      "/rotulacion-vehicular\\20241004_122018-800.jpg",
+      "/rotulacion-vehicular\\20241004_122018-1200.jpg"
+    ]
+  },
+  "/rotulacion-vehicular\\20250124_145551 (1).jpg": {
+    "avif": [
+      "/rotulacion-vehicular\\20250124_145551 (1)-400.avif",
+      "/rotulacion-vehicular\\20250124_145551 (1)-800.avif",
+      "/rotulacion-vehicular\\20250124_145551 (1)-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\20250124_145551 (1)-400.webp",
+      "/rotulacion-vehicular\\20250124_145551 (1)-800.webp",
+      "/rotulacion-vehicular\\20250124_145551 (1)-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\20250124_145551 (1)-400.jpg",
+      "/rotulacion-vehicular\\20250124_145551 (1)-800.jpg",
+      "/rotulacion-vehicular\\20250124_145551 (1)-1200.jpg"
+    ]
+  },
+  "/rotulacion-vehicular\\20250708_182125.jpg": {
+    "avif": [
+      "/rotulacion-vehicular\\20250708_182125-400.avif",
+      "/rotulacion-vehicular\\20250708_182125-800.avif",
+      "/rotulacion-vehicular\\20250708_182125-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\20250708_182125-400.webp",
+      "/rotulacion-vehicular\\20250708_182125-800.webp",
+      "/rotulacion-vehicular\\20250708_182125-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\20250708_182125-400.jpg",
+      "/rotulacion-vehicular\\20250708_182125-800.jpg",
+      "/rotulacion-vehicular\\20250708_182125-1200.jpg"
+    ]
+  },
+  "/rotulacion-vehicular\\20251211_155206.jpg": {
+    "avif": [
+      "/rotulacion-vehicular\\20251211_155206-400.avif",
+      "/rotulacion-vehicular\\20251211_155206-800.avif",
+      "/rotulacion-vehicular\\20251211_155206-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\20251211_155206-400.webp",
+      "/rotulacion-vehicular\\20251211_155206-800.webp",
+      "/rotulacion-vehicular\\20251211_155206-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\20251211_155206-400.jpg",
+      "/rotulacion-vehicular\\20251211_155206-800.jpg",
+      "/rotulacion-vehicular\\20251211_155206-1200.jpg"
+    ]
+  },
+  "/rotulacion-vehicular\\20260203_193051.jpg": {
+    "avif": [
+      "/rotulacion-vehicular\\20260203_193051-400.avif",
+      "/rotulacion-vehicular\\20260203_193051-800.avif",
+      "/rotulacion-vehicular\\20260203_193051-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\20260203_193051-400.webp",
+      "/rotulacion-vehicular\\20260203_193051-800.webp",
+      "/rotulacion-vehicular\\20260203_193051-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\20260203_193051-400.jpg",
+      "/rotulacion-vehicular\\20260203_193051-800.jpg",
+      "/rotulacion-vehicular\\20260203_193051-1200.jpg"
+    ]
+  },
+  "/rotulacion-vehicular\\20260212_154706.jpg": {
+    "avif": [
+      "/rotulacion-vehicular\\20260212_154706-400.avif",
+      "/rotulacion-vehicular\\20260212_154706-800.avif",
+      "/rotulacion-vehicular\\20260212_154706-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\20260212_154706-400.webp",
+      "/rotulacion-vehicular\\20260212_154706-800.webp",
+      "/rotulacion-vehicular\\20260212_154706-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\20260212_154706-400.jpg",
+      "/rotulacion-vehicular\\20260212_154706-800.jpg",
+      "/rotulacion-vehicular\\20260212_154706-1200.jpg"
+    ]
+  },
+  "/rotulacion-vehicular\\IMG-20250112-WA0037.jpeg": {
+    "avif": [
+      "/rotulacion-vehicular\\IMG-20250112-WA0037-400.avif",
+      "/rotulacion-vehicular\\IMG-20250112-WA0037-800.avif",
+      "/rotulacion-vehicular\\IMG-20250112-WA0037-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\IMG-20250112-WA0037-400.webp",
+      "/rotulacion-vehicular\\IMG-20250112-WA0037-800.webp",
+      "/rotulacion-vehicular\\IMG-20250112-WA0037-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\IMG-20250112-WA0037-400.jpeg",
+      "/rotulacion-vehicular\\IMG-20250112-WA0037-800.jpeg",
+      "/rotulacion-vehicular\\IMG-20250112-WA0037-1200.jpeg"
+    ]
+  },
+  "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM (1).jpeg": {
+    "avif": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM (1)-400.avif",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM (1)-800.avif",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM (1)-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM (1)-400.webp",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM (1)-800.webp",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM (1)-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM (1)-400.jpeg",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM (1)-800.jpeg",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM (1)-1200.jpeg"
+    ]
+  },
+  "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM.jpeg": {
+    "avif": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM-400.avif",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM-800.avif",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM-400.webp",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM-800.webp",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM-400.jpeg",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM-800.jpeg",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 3.54.58 PM-1200.jpeg"
+    ]
+  },
+  "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM (1).jpeg": {
+    "avif": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM (1)-400.avif",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM (1)-800.avif",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM (1)-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM (1)-400.webp",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM (1)-800.webp",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM (1)-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM (1)-400.jpeg",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM (1)-800.jpeg",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM (1)-1200.jpeg"
+    ]
+  },
+  "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM.jpeg": {
+    "avif": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM-400.avif",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM-800.avif",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM-1200.avif"
+    ],
+    "webp": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM-400.webp",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM-800.webp",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM-1200.webp"
+    ],
+    "fallback": [
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM-400.jpeg",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM-800.jpeg",
+      "/rotulacion-vehicular\\WhatsApp Image 2026-05-23 at 4.05.09 PM-1200.jpeg"
+    ]
+  },
+  "/rotulos-luminosos\\20230811_131001.jpg": {
+    "avif": [
+      "/rotulos-luminosos\\20230811_131001-400.avif",
+      "/rotulos-luminosos\\20230811_131001-800.avif",
+      "/rotulos-luminosos\\20230811_131001-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-luminosos\\20230811_131001-400.webp",
+      "/rotulos-luminosos\\20230811_131001-800.webp",
+      "/rotulos-luminosos\\20230811_131001-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-luminosos\\20230811_131001-400.jpg",
+      "/rotulos-luminosos\\20230811_131001-800.jpg",
+      "/rotulos-luminosos\\20230811_131001-1200.jpg"
+    ]
+  },
+  "/rotulos-luminosos\\20240913_185626.jpg": {
+    "avif": [
+      "/rotulos-luminosos\\20240913_185626-400.avif",
+      "/rotulos-luminosos\\20240913_185626-800.avif",
+      "/rotulos-luminosos\\20240913_185626-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-luminosos\\20240913_185626-400.webp",
+      "/rotulos-luminosos\\20240913_185626-800.webp",
+      "/rotulos-luminosos\\20240913_185626-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-luminosos\\20240913_185626-400.jpg",
+      "/rotulos-luminosos\\20240913_185626-800.jpg",
+      "/rotulos-luminosos\\20240913_185626-1200.jpg"
+    ]
+  },
+  "/rotulos-luminosos\\20241029_114711.jpg": {
+    "avif": [
+      "/rotulos-luminosos\\20241029_114711-400.avif",
+      "/rotulos-luminosos\\20241029_114711-800.avif",
+      "/rotulos-luminosos\\20241029_114711-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-luminosos\\20241029_114711-400.webp",
+      "/rotulos-luminosos\\20241029_114711-800.webp",
+      "/rotulos-luminosos\\20241029_114711-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-luminosos\\20241029_114711-400.jpg",
+      "/rotulos-luminosos\\20241029_114711-800.jpg",
+      "/rotulos-luminosos\\20241029_114711-1200.jpg"
+    ]
+  },
+  "/rotulos-luminosos\\20251208_120859.jpg": {
+    "avif": [
+      "/rotulos-luminosos\\20251208_120859-400.avif",
+      "/rotulos-luminosos\\20251208_120859-800.avif",
+      "/rotulos-luminosos\\20251208_120859-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-luminosos\\20251208_120859-400.webp",
+      "/rotulos-luminosos\\20251208_120859-800.webp",
+      "/rotulos-luminosos\\20251208_120859-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-luminosos\\20251208_120859-400.jpg",
+      "/rotulos-luminosos\\20251208_120859-800.jpg",
+      "/rotulos-luminosos\\20251208_120859-1200.jpg"
+    ]
+  },
+  "/rotulos-luminosos\\20251209_131123.jpg": {
+    "avif": [
+      "/rotulos-luminosos\\20251209_131123-400.avif",
+      "/rotulos-luminosos\\20251209_131123-800.avif",
+      "/rotulos-luminosos\\20251209_131123-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-luminosos\\20251209_131123-400.webp",
+      "/rotulos-luminosos\\20251209_131123-800.webp",
+      "/rotulos-luminosos\\20251209_131123-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-luminosos\\20251209_131123-400.jpg",
+      "/rotulos-luminosos\\20251209_131123-800.jpg",
+      "/rotulos-luminosos\\20251209_131123-1200.jpg"
+    ]
+  },
+  "/rotulos-luminosos\\20251212_143459.jpg": {
+    "avif": [
+      "/rotulos-luminosos\\20251212_143459-400.avif",
+      "/rotulos-luminosos\\20251212_143459-800.avif",
+      "/rotulos-luminosos\\20251212_143459-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-luminosos\\20251212_143459-400.webp",
+      "/rotulos-luminosos\\20251212_143459-800.webp",
+      "/rotulos-luminosos\\20251212_143459-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-luminosos\\20251212_143459-400.jpg",
+      "/rotulos-luminosos\\20251212_143459-800.jpg",
+      "/rotulos-luminosos\\20251212_143459-1200.jpg"
+    ]
+  },
+  "/rotulos-luminosos\\hielo qr.jpg": {
+    "avif": [
+      "/rotulos-luminosos\\hielo qr-400.avif",
+      "/rotulos-luminosos\\hielo qr-800.avif",
+      "/rotulos-luminosos\\hielo qr-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-luminosos\\hielo qr-400.webp",
+      "/rotulos-luminosos\\hielo qr-800.webp",
+      "/rotulos-luminosos\\hielo qr-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-luminosos\\hielo qr-400.jpg",
+      "/rotulos-luminosos\\hielo qr-800.jpg",
+      "/rotulos-luminosos\\hielo qr-1200.jpg"
+    ]
+  },
+  "/rotulos-marco-lona\\20250119_102055.jpg": {
+    "avif": [
+      "/rotulos-marco-lona\\20250119_102055-400.avif",
+      "/rotulos-marco-lona\\20250119_102055-800.avif",
+      "/rotulos-marco-lona\\20250119_102055-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-marco-lona\\20250119_102055-400.webp",
+      "/rotulos-marco-lona\\20250119_102055-800.webp",
+      "/rotulos-marco-lona\\20250119_102055-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-marco-lona\\20250119_102055-400.jpg",
+      "/rotulos-marco-lona\\20250119_102055-800.jpg",
+      "/rotulos-marco-lona\\20250119_102055-1200.jpg"
+    ]
+  },
+  "/rotulos-marco-lona\\20250119_153325.jpg": {
+    "avif": [
+      "/rotulos-marco-lona\\20250119_153325-400.avif",
+      "/rotulos-marco-lona\\20250119_153325-800.avif",
+      "/rotulos-marco-lona\\20250119_153325-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-marco-lona\\20250119_153325-400.webp",
+      "/rotulos-marco-lona\\20250119_153325-800.webp",
+      "/rotulos-marco-lona\\20250119_153325-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-marco-lona\\20250119_153325-400.jpg",
+      "/rotulos-marco-lona\\20250119_153325-800.jpg",
+      "/rotulos-marco-lona\\20250119_153325-1200.jpg"
+    ]
+  },
+  "/rotulos-marco-lona\\20250729_170624.jpg": {
+    "avif": [
+      "/rotulos-marco-lona\\20250729_170624-400.avif",
+      "/rotulos-marco-lona\\20250729_170624-800.avif",
+      "/rotulos-marco-lona\\20250729_170624-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-marco-lona\\20250729_170624-400.webp",
+      "/rotulos-marco-lona\\20250729_170624-800.webp",
+      "/rotulos-marco-lona\\20250729_170624-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-marco-lona\\20250729_170624-400.jpg",
+      "/rotulos-marco-lona\\20250729_170624-800.jpg",
+      "/rotulos-marco-lona\\20250729_170624-1200.jpg"
+    ]
+  },
+  "/rotulos-marco-lona\\20250730_154229.jpg": {
+    "avif": [
+      "/rotulos-marco-lona\\20250730_154229-400.avif",
+      "/rotulos-marco-lona\\20250730_154229-800.avif",
+      "/rotulos-marco-lona\\20250730_154229-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-marco-lona\\20250730_154229-400.webp",
+      "/rotulos-marco-lona\\20250730_154229-800.webp",
+      "/rotulos-marco-lona\\20250730_154229-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-marco-lona\\20250730_154229-400.jpg",
+      "/rotulos-marco-lona\\20250730_154229-800.jpg",
+      "/rotulos-marco-lona\\20250730_154229-1200.jpg"
+    ]
+  },
+  "/rotulos-marco-lona\\20251124_112319.jpg": {
+    "avif": [
+      "/rotulos-marco-lona\\20251124_112319-400.avif",
+      "/rotulos-marco-lona\\20251124_112319-800.avif",
+      "/rotulos-marco-lona\\20251124_112319-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-marco-lona\\20251124_112319-400.webp",
+      "/rotulos-marco-lona\\20251124_112319-800.webp",
+      "/rotulos-marco-lona\\20251124_112319-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-marco-lona\\20251124_112319-400.jpg",
+      "/rotulos-marco-lona\\20251124_112319-800.jpg",
+      "/rotulos-marco-lona\\20251124_112319-1200.jpg"
+    ]
+  },
+  "/rotulos-marco-lona\\El futuro.jpg": {
+    "avif": [
+      "/rotulos-marco-lona\\El futuro-400.avif",
+      "/rotulos-marco-lona\\El futuro-800.avif",
+      "/rotulos-marco-lona\\El futuro-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-marco-lona\\El futuro-400.webp",
+      "/rotulos-marco-lona\\El futuro-800.webp",
+      "/rotulos-marco-lona\\El futuro-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-marco-lona\\El futuro-400.jpg",
+      "/rotulos-marco-lona\\El futuro-800.jpg",
+      "/rotulos-marco-lona\\El futuro-1200.jpg"
+    ]
+  },
+  "/rotulos-marco-lona\\Lubricantes.jpg": {
+    "avif": [
+      "/rotulos-marco-lona\\Lubricantes-400.avif",
+      "/rotulos-marco-lona\\Lubricantes-800.avif",
+      "/rotulos-marco-lona\\Lubricantes-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-marco-lona\\Lubricantes-400.webp",
+      "/rotulos-marco-lona\\Lubricantes-800.webp",
+      "/rotulos-marco-lona\\Lubricantes-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-marco-lona\\Lubricantes-400.jpg",
+      "/rotulos-marco-lona\\Lubricantes-800.jpg",
+      "/rotulos-marco-lona\\Lubricantes-1200.jpg"
+    ]
+  },
+  "/rotulos-marco-lona\\WhatsApp Image 2026-05-15 at 4.24.31 PM.jpeg": {
+    "avif": [
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-15 at 4.24.31 PM-400.avif",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-15 at 4.24.31 PM-800.avif",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-15 at 4.24.31 PM-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-15 at 4.24.31 PM-400.webp",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-15 at 4.24.31 PM-800.webp",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-15 at 4.24.31 PM-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-15 at 4.24.31 PM-400.jpeg",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-15 at 4.24.31 PM-800.jpeg",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-15 at 4.24.31 PM-1200.jpeg"
+    ]
+  },
+  "/rotulos-marco-lona\\WhatsApp Image 2026-05-18 at 11.57.33 AM (1).jpeg": {
+    "avif": [
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-18 at 11.57.33 AM (1)-400.avif",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-18 at 11.57.33 AM (1)-800.avif",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-18 at 11.57.33 AM (1)-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-18 at 11.57.33 AM (1)-400.webp",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-18 at 11.57.33 AM (1)-800.webp",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-18 at 11.57.33 AM (1)-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-18 at 11.57.33 AM (1)-400.jpeg",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-18 at 11.57.33 AM (1)-800.jpeg",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-18 at 11.57.33 AM (1)-1200.jpeg"
+    ]
+  },
+  "/rotulos-marco-lona\\WhatsApp Image 2026-05-21 at 9.10.08 AM.jpeg": {
+    "avif": [
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-21 at 9.10.08 AM-400.avif",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-21 at 9.10.08 AM-800.avif",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-21 at 9.10.08 AM-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-21 at 9.10.08 AM-400.webp",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-21 at 9.10.08 AM-800.webp",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-21 at 9.10.08 AM-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-21 at 9.10.08 AM-400.jpeg",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-21 at 9.10.08 AM-800.jpeg",
+      "/rotulos-marco-lona\\WhatsApp Image 2026-05-21 at 9.10.08 AM-1200.jpeg"
+    ]
+  },
+  "/rotulos-metalicos\\20231027_113206.jpg": {
+    "avif": [
+      "/rotulos-metalicos\\20231027_113206-400.avif",
+      "/rotulos-metalicos\\20231027_113206-800.avif",
+      "/rotulos-metalicos\\20231027_113206-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\20231027_113206-400.webp",
+      "/rotulos-metalicos\\20231027_113206-800.webp",
+      "/rotulos-metalicos\\20231027_113206-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\20231027_113206-400.jpg",
+      "/rotulos-metalicos\\20231027_113206-800.jpg",
+      "/rotulos-metalicos\\20231027_113206-1200.jpg"
+    ]
+  },
+  "/rotulos-metalicos\\20231116_150456.jpg": {
+    "avif": [
+      "/rotulos-metalicos\\20231116_150456-400.avif",
+      "/rotulos-metalicos\\20231116_150456-800.avif",
+      "/rotulos-metalicos\\20231116_150456-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\20231116_150456-400.webp",
+      "/rotulos-metalicos\\20231116_150456-800.webp",
+      "/rotulos-metalicos\\20231116_150456-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\20231116_150456-400.jpg",
+      "/rotulos-metalicos\\20231116_150456-800.jpg",
+      "/rotulos-metalicos\\20231116_150456-1200.jpg"
+    ]
+  },
+  "/rotulos-metalicos\\20231219_142333.jpg": {
+    "avif": [
+      "/rotulos-metalicos\\20231219_142333-400.avif",
+      "/rotulos-metalicos\\20231219_142333-800.avif",
+      "/rotulos-metalicos\\20231219_142333-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\20231219_142333-400.webp",
+      "/rotulos-metalicos\\20231219_142333-800.webp",
+      "/rotulos-metalicos\\20231219_142333-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\20231219_142333-400.jpg",
+      "/rotulos-metalicos\\20231219_142333-800.jpg",
+      "/rotulos-metalicos\\20231219_142333-1200.jpg"
+    ]
+  },
+  "/rotulos-metalicos\\20240130_091507.jpg": {
+    "avif": [
+      "/rotulos-metalicos\\20240130_091507-400.avif",
+      "/rotulos-metalicos\\20240130_091507-800.avif",
+      "/rotulos-metalicos\\20240130_091507-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\20240130_091507-400.webp",
+      "/rotulos-metalicos\\20240130_091507-800.webp",
+      "/rotulos-metalicos\\20240130_091507-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\20240130_091507-400.jpg",
+      "/rotulos-metalicos\\20240130_091507-800.jpg",
+      "/rotulos-metalicos\\20240130_091507-1200.jpg"
+    ]
+  },
+  "/rotulos-metalicos\\20240223_100124.jpg": {
+    "avif": [
+      "/rotulos-metalicos\\20240223_100124-400.avif",
+      "/rotulos-metalicos\\20240223_100124-800.avif",
+      "/rotulos-metalicos\\20240223_100124-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\20240223_100124-400.webp",
+      "/rotulos-metalicos\\20240223_100124-800.webp",
+      "/rotulos-metalicos\\20240223_100124-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\20240223_100124-400.jpg",
+      "/rotulos-metalicos\\20240223_100124-800.jpg",
+      "/rotulos-metalicos\\20240223_100124-1200.jpg"
+    ]
+  },
+  "/rotulos-metalicos\\20241007_105439.jpg": {
+    "avif": [
+      "/rotulos-metalicos\\20241007_105439-400.avif",
+      "/rotulos-metalicos\\20241007_105439-800.avif",
+      "/rotulos-metalicos\\20241007_105439-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\20241007_105439-400.webp",
+      "/rotulos-metalicos\\20241007_105439-800.webp",
+      "/rotulos-metalicos\\20241007_105439-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\20241007_105439-400.jpg",
+      "/rotulos-metalicos\\20241007_105439-800.jpg",
+      "/rotulos-metalicos\\20241007_105439-1200.jpg"
+    ]
+  },
+  "/rotulos-metalicos\\20241028_171336.jpg": {
+    "avif": [
+      "/rotulos-metalicos\\20241028_171336-400.avif",
+      "/rotulos-metalicos\\20241028_171336-800.avif",
+      "/rotulos-metalicos\\20241028_171336-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\20241028_171336-400.webp",
+      "/rotulos-metalicos\\20241028_171336-800.webp",
+      "/rotulos-metalicos\\20241028_171336-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\20241028_171336-400.jpg",
+      "/rotulos-metalicos\\20241028_171336-800.jpg",
+      "/rotulos-metalicos\\20241028_171336-1200.jpg"
+    ]
+  },
+  "/rotulos-metalicos\\20241210_105300 (1).jpg": {
+    "avif": [
+      "/rotulos-metalicos\\20241210_105300 (1)-400.avif",
+      "/rotulos-metalicos\\20241210_105300 (1)-800.avif",
+      "/rotulos-metalicos\\20241210_105300 (1)-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\20241210_105300 (1)-400.webp",
+      "/rotulos-metalicos\\20241210_105300 (1)-800.webp",
+      "/rotulos-metalicos\\20241210_105300 (1)-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\20241210_105300 (1)-400.jpg",
+      "/rotulos-metalicos\\20241210_105300 (1)-800.jpg",
+      "/rotulos-metalicos\\20241210_105300 (1)-1200.jpg"
+    ]
+  },
+  "/rotulos-metalicos\\Diego family barf.jpg": {
+    "avif": [
+      "/rotulos-metalicos\\Diego family barf-400.avif",
+      "/rotulos-metalicos\\Diego family barf-800.avif",
+      "/rotulos-metalicos\\Diego family barf-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\Diego family barf-400.webp",
+      "/rotulos-metalicos\\Diego family barf-800.webp",
+      "/rotulos-metalicos\\Diego family barf-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\Diego family barf-400.jpg",
+      "/rotulos-metalicos\\Diego family barf-800.jpg",
+      "/rotulos-metalicos\\Diego family barf-1200.jpg"
+    ]
+  },
+  "/rotulos-metalicos\\Señales.jpg": {
+    "avif": [
+      "/rotulos-metalicos\\Señales-400.avif",
+      "/rotulos-metalicos\\Señales-800.avif",
+      "/rotulos-metalicos\\Señales-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\Señales-400.webp",
+      "/rotulos-metalicos\\Señales-800.webp",
+      "/rotulos-metalicos\\Señales-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\Señales-400.jpg",
+      "/rotulos-metalicos\\Señales-800.jpg",
+      "/rotulos-metalicos\\Señales-1200.jpg"
+    ]
+  },
+  "/rotulos-metalicos\\Super El Ahorro.jpeg": {
+    "avif": [
+      "/rotulos-metalicos\\Super El Ahorro-400.avif",
+      "/rotulos-metalicos\\Super El Ahorro-800.avif",
+      "/rotulos-metalicos\\Super El Ahorro-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\Super El Ahorro-400.webp",
+      "/rotulos-metalicos\\Super El Ahorro-800.webp",
+      "/rotulos-metalicos\\Super El Ahorro-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\Super El Ahorro-400.jpeg",
+      "/rotulos-metalicos\\Super El Ahorro-800.jpeg",
+      "/rotulos-metalicos\\Super El Ahorro-1200.jpeg"
+    ]
+  },
+  "/rotulos-metalicos\\Torre.jpg": {
+    "avif": [
+      "/rotulos-metalicos\\Torre-400.avif",
+      "/rotulos-metalicos\\Torre-800.avif",
+      "/rotulos-metalicos\\Torre-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\Torre-400.webp",
+      "/rotulos-metalicos\\Torre-800.webp",
+      "/rotulos-metalicos\\Torre-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\Torre-400.jpg",
+      "/rotulos-metalicos\\Torre-800.jpg",
+      "/rotulos-metalicos\\Torre-1200.jpg"
+    ]
+  },
+  "/rotulos-metalicos\\WhatsApp Image 2026-05-13 at 10.07.28 AM.jpeg": {
+    "avif": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-13 at 10.07.28 AM-400.avif",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-13 at 10.07.28 AM-800.avif",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-13 at 10.07.28 AM-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-13 at 10.07.28 AM-400.webp",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-13 at 10.07.28 AM-800.webp",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-13 at 10.07.28 AM-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-13 at 10.07.28 AM-400.jpeg",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-13 at 10.07.28 AM-800.jpeg",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-13 at 10.07.28 AM-1200.jpeg"
+    ]
+  },
+  "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 8.57.12 AM.jpeg": {
+    "avif": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 8.57.12 AM-400.avif",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 8.57.12 AM-800.avif",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 8.57.12 AM-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 8.57.12 AM-400.webp",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 8.57.12 AM-800.webp",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 8.57.12 AM-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 8.57.12 AM-400.jpeg",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 8.57.12 AM-800.jpeg",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 8.57.12 AM-1200.jpeg"
+    ]
+  },
+  "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 9.10.08 AM.jpeg": {
+    "avif": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 9.10.08 AM-400.avif",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 9.10.08 AM-800.avif",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 9.10.08 AM-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 9.10.08 AM-400.webp",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 9.10.08 AM-800.webp",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 9.10.08 AM-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 9.10.08 AM-400.jpeg",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 9.10.08 AM-800.jpeg",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-21 at 9.10.08 AM-1200.jpeg"
+    ]
+  },
+  "/rotulos-metalicos\\WhatsApp Image 2026-05-22 at 2.30.57 PM.jpeg": {
+    "avif": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-22 at 2.30.57 PM-400.avif",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-22 at 2.30.57 PM-800.avif",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-22 at 2.30.57 PM-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-22 at 2.30.57 PM-400.webp",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-22 at 2.30.57 PM-800.webp",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-22 at 2.30.57 PM-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-22 at 2.30.57 PM-400.jpeg",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-22 at 2.30.57 PM-800.jpeg",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-22 at 2.30.57 PM-1200.jpeg"
+    ]
+  },
+  "/rotulos-metalicos\\WhatsApp Image 2026-05-23 at 4.01.51 PM.jpeg": {
+    "avif": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-23 at 4.01.51 PM-400.avif",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-23 at 4.01.51 PM-800.avif",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-23 at 4.01.51 PM-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-23 at 4.01.51 PM-400.webp",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-23 at 4.01.51 PM-800.webp",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-23 at 4.01.51 PM-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-23 at 4.01.51 PM-400.jpeg",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-23 at 4.01.51 PM-800.jpeg",
+      "/rotulos-metalicos\\WhatsApp Image 2026-05-23 at 4.01.51 PM-1200.jpeg"
+    ]
+  },
+  "/rotulos-metalicos\\Zapato.jpg": {
+    "avif": [
+      "/rotulos-metalicos\\Zapato-400.avif",
+      "/rotulos-metalicos\\Zapato-800.avif",
+      "/rotulos-metalicos\\Zapato-1200.avif"
+    ],
+    "webp": [
+      "/rotulos-metalicos\\Zapato-400.webp",
+      "/rotulos-metalicos\\Zapato-800.webp",
+      "/rotulos-metalicos\\Zapato-1200.webp"
+    ],
+    "fallback": [
+      "/rotulos-metalicos\\Zapato-400.jpg",
+      "/rotulos-metalicos\\Zapato-800.jpg",
+      "/rotulos-metalicos\\Zapato-1200.jpg"
+    ]
+  },
+  "/sandblasting\\20230217_123009.jpg": {
+    "avif": [
+      "/sandblasting\\20230217_123009-400.avif",
+      "/sandblasting\\20230217_123009-800.avif",
+      "/sandblasting\\20230217_123009-1200.avif"
+    ],
+    "webp": [
+      "/sandblasting\\20230217_123009-400.webp",
+      "/sandblasting\\20230217_123009-800.webp",
+      "/sandblasting\\20230217_123009-1200.webp"
+    ],
+    "fallback": [
+      "/sandblasting\\20230217_123009-400.jpg",
+      "/sandblasting\\20230217_123009-800.jpg",
+      "/sandblasting\\20230217_123009-1200.jpg"
+    ]
+  },
+  "/sandblasting\\20230516_170412.jpg": {
+    "avif": [
+      "/sandblasting\\20230516_170412-400.avif",
+      "/sandblasting\\20230516_170412-800.avif",
+      "/sandblasting\\20230516_170412-1200.avif"
+    ],
+    "webp": [
+      "/sandblasting\\20230516_170412-400.webp",
+      "/sandblasting\\20230516_170412-800.webp",
+      "/sandblasting\\20230516_170412-1200.webp"
+    ],
+    "fallback": [
+      "/sandblasting\\20230516_170412-400.jpg",
+      "/sandblasting\\20230516_170412-800.jpg",
+      "/sandblasting\\20230516_170412-1200.jpg"
+    ]
+  },
+  "/sandblasting\\20250122_125830.jpg": {
+    "avif": [
+      "/sandblasting\\20250122_125830-400.avif",
+      "/sandblasting\\20250122_125830-800.avif",
+      "/sandblasting\\20250122_125830-1200.avif"
+    ],
+    "webp": [
+      "/sandblasting\\20250122_125830-400.webp",
+      "/sandblasting\\20250122_125830-800.webp",
+      "/sandblasting\\20250122_125830-1200.webp"
+    ],
+    "fallback": [
+      "/sandblasting\\20250122_125830-400.jpg",
+      "/sandblasting\\20250122_125830-800.jpg",
+      "/sandblasting\\20250122_125830-1200.jpg"
+    ]
+  },
+  "/sandblasting\\Frnjas.jpg": {
+    "avif": [
+      "/sandblasting\\Frnjas-400.avif",
+      "/sandblasting\\Frnjas-800.avif",
+      "/sandblasting\\Frnjas-1200.avif"
+    ],
+    "webp": [
+      "/sandblasting\\Frnjas-400.webp",
+      "/sandblasting\\Frnjas-800.webp",
+      "/sandblasting\\Frnjas-1200.webp"
+    ],
+    "fallback": [
+      "/sandblasting\\Frnjas-400.jpg",
+      "/sandblasting\\Frnjas-800.jpg",
+      "/sandblasting\\Frnjas-1200.jpg"
+    ]
+  },
+  "/sandblasting\\KJ.jpg": {
+    "avif": [
+      "/sandblasting\\KJ-400.avif",
+      "/sandblasting\\KJ-800.avif",
+      "/sandblasting\\KJ-1200.avif"
+    ],
+    "webp": [
+      "/sandblasting\\KJ-400.webp",
+      "/sandblasting\\KJ-800.webp",
+      "/sandblasting\\KJ-1200.webp"
+    ],
+    "fallback": [
+      "/sandblasting\\KJ-400.jpg",
+      "/sandblasting\\KJ-800.jpg",
+      "/sandblasting\\KJ-1200.jpg"
+    ]
+  },
+  "/sandblasting\\Seguros.jpg": {
+    "avif": [
+      "/sandblasting\\Seguros-400.avif",
+      "/sandblasting\\Seguros-800.avif",
+      "/sandblasting\\Seguros-1200.avif"
+    ],
+    "webp": [
+      "/sandblasting\\Seguros-400.webp",
+      "/sandblasting\\Seguros-800.webp",
+      "/sandblasting\\Seguros-1200.webp"
+    ],
+    "fallback": [
+      "/sandblasting\\Seguros-400.jpg",
+      "/sandblasting\\Seguros-800.jpg",
+      "/sandblasting\\Seguros-1200.jpg"
+    ]
+  },
+  "/sandblasting\\WhatsApp Image 2026-05-23 at 3.58.48 PM (1).jpeg": {
+    "avif": [
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 3.58.48 PM (1)-400.avif",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 3.58.48 PM (1)-800.avif",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 3.58.48 PM (1)-1200.avif"
+    ],
+    "webp": [
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 3.58.48 PM (1)-400.webp",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 3.58.48 PM (1)-800.webp",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 3.58.48 PM (1)-1200.webp"
+    ],
+    "fallback": [
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 3.58.48 PM (1)-400.jpeg",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 3.58.48 PM (1)-800.jpeg",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 3.58.48 PM (1)-1200.jpeg"
+    ]
+  },
+  "/sandblasting\\WhatsApp Image 2026-05-23 at 4.06.48 PM.jpeg": {
+    "avif": [
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 4.06.48 PM-400.avif",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 4.06.48 PM-800.avif",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 4.06.48 PM-1200.avif"
+    ],
+    "webp": [
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 4.06.48 PM-400.webp",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 4.06.48 PM-800.webp",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 4.06.48 PM-1200.webp"
+    ],
+    "fallback": [
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 4.06.48 PM-400.jpeg",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 4.06.48 PM-800.jpeg",
+      "/sandblasting\\WhatsApp Image 2026-05-23 at 4.06.48 PM-1200.jpeg"
+    ]
+  }
+}

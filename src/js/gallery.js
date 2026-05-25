@@ -19,7 +19,8 @@ const servicesList = [
 ];
 
 const globbedFiles = import.meta.glob('/public/**/*.{jpg,jpeg,png,webp,avif,gif}');
-const filePaths = Object.keys(globbedFiles);
+// Exclude already generated responsive images (ending with -400, -800, -1200)
+const filePaths = Object.keys(globbedFiles).filter(path => !/-(400|800|1200)\.[a-z0-9]+$/i.test(path));
 
 let imageManifest = null; // populated by loadManifest()
 
@@ -105,40 +106,52 @@ function renderGalleryPage() {
   observeLazyImages();
 
   renderPaginationControls();
+
+  // Trigger GSAP cards animation if available
+  if (typeof window.animateGalleryCards === 'function') {
+    window.animateGalleryCards();
+  }
 }
 
 // IntersectionObserver for lazy-loading images only when they enter viewport
 let lazyObserver = null;
 function observeLazyImages() {
   const lazyImages = Array.from(document.querySelectorAll('img.lazy-img[data-src]'));
-  const lazySources = Array.from(document.querySelectorAll('source[data-srcset]'));
-  if (lazyImages.length === 0 && lazySources.length === 0) return;
+  if (lazyImages.length === 0) return;
 
   if ('IntersectionObserver' in window) {
     if (!lazyObserver) {
       lazyObserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
           if (!entry.isIntersecting) return;
-          const el = entry.target;
-          if (el.tagName && el.tagName.toLowerCase() === 'img') {
-            const src = el.getAttribute('data-src');
-            const srcset = el.getAttribute('data-srcset');
-            if (src) el.src = src;
-            if (srcset) el.srcset = srcset;
-            el.removeAttribute('data-src');
-            el.removeAttribute('data-srcset');
-            el.classList.remove('lazy-img');
-            observer.unobserve(el);
-          } else if (el.tagName && el.tagName.toLowerCase() === 'source') {
-            const ss = el.getAttribute('data-srcset');
-            if (ss) el.srcset = ss;
-            el.removeAttribute('data-srcset');
-            observer.unobserve(el);
+          const img = entry.target;
+          
+          // Load picture sources if they exist
+          const picture = img.closest('picture');
+          if (picture) {
+            const sources = picture.querySelectorAll('source[data-srcset]');
+            sources.forEach(source => {
+              const ss = source.getAttribute('data-srcset');
+              if (ss) {
+                source.srcset = ss;
+                source.removeAttribute('data-srcset');
+              }
+            });
           }
+
+          // Load img src and srcset
+          const src = img.getAttribute('data-src');
+          const srcset = img.getAttribute('data-srcset');
+          if (src) img.src = src;
+          if (srcset) img.srcset = srcset;
+          img.removeAttribute('data-src');
+          img.removeAttribute('data-srcset');
+          img.classList.remove('lazy-img');
+          observer.unobserve(img);
         });
       }, {
         root: null,
-        rootMargin: '200px',
+        rootMargin: '300px', // margin slightly larger for better perceived UX
         threshold: 0.01
       });
     }
@@ -146,20 +159,25 @@ function observeLazyImages() {
     lazyImages.forEach(img => {
       if (img.getAttribute('data-src')) lazyObserver.observe(img);
     });
-    lazySources.forEach(src => {
-      if (src.getAttribute('data-srcset')) lazyObserver.observe(src);
-    });
   } else {
     // Fallback: load all images immediately
     lazyImages.forEach(img => {
+      const picture = img.closest('picture');
+      if (picture) {
+        const sources = picture.querySelectorAll('source[data-srcset]');
+        sources.forEach(source => {
+          const ss = source.getAttribute('data-srcset');
+          if (ss) {
+            source.srcset = ss;
+            source.removeAttribute('data-srcset');
+          }
+        });
+      }
       const src = img.getAttribute('data-src');
       const srcset = img.getAttribute('data-srcset');
       if (src) img.src = src;
       if (srcset) img.srcset = srcset;
-    });
-    lazySources.forEach(s => {
-      const ss = s.getAttribute('data-srcset');
-      if (ss) s.srcset = ss;
+      img.classList.remove('lazy-img');
     });
   }
 }
